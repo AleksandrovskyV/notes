@@ -23,6 +23,7 @@ Import From Houdini to C4D: Alembic Scale – 2 Meters
 (если в Houdini проект на 24 FPS, а при импорте в Cinema 4D указать 30 FPS).  
 
 📏 Size Values Project Defaults
+
 | Soft	    | Project Scale | Default Cube | Def Import .abc  |
 | --------- | ------------- | ------------ | ---------------- |
 | Cinema 4D | 1 = CM        | 200 cm       | 1 cm             |
@@ -30,6 +31,7 @@ Import From Houdini to C4D: Alembic Scale – 2 Meters
 
 
 ⏱ Time Values Project Defaults
+
 | Soft      | STARTFRAME | FPS |
 | --------- | ---------- | --- |
 | Cinema 4D | 0          | 30  |
@@ -47,6 +49,7 @@ Import From Houdini to C4D: Alembic Scale – 2 Meters
 ## 🔹 Мой воркфлоу:
 
 Я всегда проверяю FPS в обеих программах, чтобы он не отличался:
+
 |            |                                          |
 |------------|------------------------------------------|
 | Cinema 4D  | Mode > Project > FPS                     |
