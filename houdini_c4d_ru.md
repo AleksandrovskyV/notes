@@ -24,14 +24,13 @@ Import From Houdini to C4D: Alembic Scale – 2 Meters
 
 📏 Size Values Project Defaults
 
-
 | Soft | Project Scale | Default Cube | Def Import .abc |
 | :--- | :--- | :--- | :--- |
 | Cinema 4D | 1 = CM | 200 cm | 1 cm |
 | Houdini | 1 = M | 1 m | — |
 
-⏱ Time Values Project Defaults
 
+⏱ Time Values Project Defaults
 
 | Soft | STARTFRAME | FPS |
 | :--- | :--- | :--- |
