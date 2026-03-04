@@ -24,18 +24,20 @@ Import From Houdini to C4D: Alembic Scale – 2 Meters
 
 📏 Size Values Project Defaults
 
-| Soft	    | Project Scale | Default Cube | Def Import .abc  |
-| --------- | ------------- | ------------ | ---------------- |
-| Cinema 4D | 1 = CM        | 200 cm       | 1 cm             |
-| Houdini   | 1 = M         | 1 m          | —                |
 
+| Soft | Project Scale | Default Cube | Def Import .abc |
+| :--- | :--- | :--- | :--- |
+| Cinema 4D | 1 = CM | 200 cm | 1 cm |
+| Houdini | 1 = M | 1 m | — |
 
 ⏱ Time Values Project Defaults
 
-| Soft      | STARTFRAME | FPS |
-| --------- | ---------- | --- |
-| Cinema 4D | 0          | 30  |
-| Houdini   | 1          | 24  |
+
+| Soft | STARTFRAME | FPS |
+| :--- | :--- | :--- |
+| Cinema 4D | 0 | 30 |
+| Houdini | 1 | 24 |
+
 
 С импортом в Houdini проблем нет, т.к. можно просто закинуть следующей нодой - Transform со значением Uniform Scale = 0.005  
 В таком случае, стандартный куб из C4D станет равным кубу в Houdini. Несмотря на то, что они всё равно будут разными по абсолютному размеру (C4D CUBE – 200 cm, HOUDINI CUBE – 1 m), ощущаться в сцене они будут одинаково  
