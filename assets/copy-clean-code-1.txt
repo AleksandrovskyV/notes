@@ -1,0 +1,105 @@
+// ==UserScript==
+// @name         Copy Clean Code
+// @version      1.0
+// @description  Copy without Commentary (HTML / CSS / JS / Python)
+// @match        *://*/*
+// @run-at       document-end
+// ==/UserScript==
+
+(function() {
+    'use strict';
+
+    const container = document.createElement('div');
+    container.id = 'clean-copy-pipeline-container';
+    container.style.cssText = 'position:fixed;bottom:20px;right:20px;z-index:999999;display:none;font:14px Arial;';
+    document.body.appendChild(container);
+
+    const mainBtn = document.createElement('button');
+    mainBtn.innerText = '~ Copy Clean';
+    mainBtn.style.cssText = 'background:#2f7ee3;color:white;border:none;padding:8px 12px;cursor:pointer;font-weight:bold;';
+
+    const menu = document.createElement('div');
+    menu.style.cssText = 'position:absolute;bottom:35px;right:0;background:white;border:1px solid #ccc;display:none;flex-direction:column;';
+
+    const options = [
+        { name: '[ HTML ]', type: 'html' },
+        { name: '[ CSS | JS ]', type: 'css_js' },
+        { name: '[ Python ]', type: 'python' },
+        { name: '[ PlainText ]', type: 'text' }
+    ];
+
+    let selectedText = '';
+
+    function cleanCode(text, type) {
+        if (type === 'html') {
+            return text.replace(/<!--[\s\S]*?-->/g, '').split('\n').map(l => l.trimEnd()).join('\n');
+        }
+        if (type === 'css_js') {
+            let temp = text.replace(/\/\*[\s\S]*?\*\//g, '');
+            return temp.split('\n').map(line => {
+                let cleaned = line.replace(/(^|[^\s:])\s*\/\/.*/g, '$1');
+                return cleaned.trim() ? cleaned.trimEnd() : '';
+            }).join('\n');
+        }
+        if (type === 'python') {
+            let temp = text.replace(/"""[\s\S]*?"""|'''[\s\S]*?'''/g, '');
+
+            return temp.split('\n').map(line => {
+                let cleaned = line.replace(/(^|[^"'\w\s])\s*#.*/g, '$1');
+                if (line.trim().startsWith('#')) cleaned = '';
+                return cleaned.trim() ? cleaned.trimEnd() : '';
+            }).join('\n');
+        }
+        return text;
+    }
+
+    options.forEach(opt => {
+        const btn = document.createElement('button');
+        btn.innerText = opt.name;
+        btn.style.cssText = 'background:white; color:#333; border:none; padding:8px 12px; cursor:pointer; text-align:left; font-size:13px; transition:0.2s;';
+        btn.onmouseover = () => { btn.style.background = '#f0f0f0'; };
+        btn.onmouseout = () => { btn.style.background = 'white'; };
+        btn.onclick = () => {
+            const result = cleanCode(selectedText, opt.type);
+            navigator.clipboard.writeText(result);
+
+            mainBtn.innerText = 'Copied!';
+            mainBtn.style.background = '#28a745';
+            menu.style.display = 'none';
+
+            setTimeout(() => {
+                mainBtn.innerText = '~ Copy Clean';
+                mainBtn.style.background = '#2f7ee3';
+                container.style.display = 'none';
+            }, 1000);
+        };
+        menu.appendChild(btn);
+    });
+
+    container.appendChild(mainBtn);
+    container.appendChild(menu);
+
+    mainBtn.onclick = (e) => {
+        e.stopPropagation();
+        menu.style.display = menu.style.display === 'none' ? 'flex' : 'none';
+    };
+
+    document.addEventListener('mouseup', () => {
+        const selection = window.getSelection().toString();
+        if (selection && selection.trim().length > 2) {
+            selectedText = selection;
+            container.style.display = 'block';
+        } else {
+            setTimeout(() => {
+                if (!window.getSelection().toString()) {
+                    container.style.display = 'none';
+                    menu.style.display = 'none';
+                }
+            }, 100);
+        }
+    });
+
+    document.addEventListener('click', () => {
+        menu.style.display = 'none';
+    });
+})();
