@@ -1,4 +1,4 @@
-### 🗂 My:
+Разные заметочки...
 
 # [RU] На Русском!  
 ## 🔹 00. [C4D и Houdini : Пайплайн](https://aleksandrovskyv.github.io/notes/houdini_c4d_ru)<br>
