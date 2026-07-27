@@ -2,14 +2,22 @@
 смотреть мобильную версию прямо с телефона - локально...
 
 Для этого в cmd.exe (с установленным python естественно) ввожу команду<br>
-python -m http.server<br>
+```bash
+python -m http.server
+```
+<br>
 Файл "index.html" станет дооступен из браузера по адресу: localhost:8000<br>
 А если вбить:<br>
-python -m http.server 8080<br><br>
+
+```bash
+python -m http.server 8080<br>
+```
 Внезапно станет доступна по адресу: localhost:8080<br><br>
 
 Есть ещё<br>
+```bash
 python -m http.server 8000 --bind 0.0.0.0<br>
+```
 Но я не знаю что она делает<br><br>
 
 На телефоне нужно будет вбить ip компьютера<br>
