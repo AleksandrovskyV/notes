@@ -40,3 +40,13 @@ copy from<br>
 https://svgomg.net 
 paste to<br>
 https://yoksel.github.io/url-encoder/
+
+### минификация шрифта 
+из ttf > woff2 > сразу для css <br>
+https://transfonter.org/
+
+### минификация png
+output format (css background)<br>
+https://base64.guru/converter/encode/image/png
+
+
