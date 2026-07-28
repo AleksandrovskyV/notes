@@ -36,4 +36,7 @@ upd.. может сломать верстку
 https://www.toptal.com/developers/html-minifier
 
 ### минификация svg
-https://svgomg.net
+copy from 
+https://svgomg.net 
+paste to 
+https://yoksel.github.io/url-encoder/
