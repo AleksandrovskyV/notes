@@ -32,4 +32,5 @@ python -m http.server 8000 --bind 0.0.0.0
 117  кб     > 67кб
 3531 строка > 669 строк
 
+upd.. может сломать верстку
 https://www.toptal.com/developers/html-minifier
