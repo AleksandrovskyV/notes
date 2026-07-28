@@ -29,4 +29,7 @@ python -m http.server 8000 --bind 0.0.0.0
 Чтобы быстро его открыть достаточно в адресную строку проводника вбить cmd - easy peasy
 
 ### минификация html 
+117  кб     > 67кб
+3531 строка > 669 строк
+
 https://www.toptal.com/developers/html-minifier
