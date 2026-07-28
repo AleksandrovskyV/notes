@@ -28,5 +28,5 @@ python -m http.server 8000 --bind 0.0.0.0
 ### cmd.exe быстро
 Чтобы быстро его открыть достаточно в адресную строку проводника вбить cmd - easy peasy
 
-### минификации html прикольно
+### минификация html 
 https://www.toptal.com/developers/html-minifier
