@@ -34,3 +34,6 @@ python -m http.server 8000 --bind 0.0.0.0
 
 upd.. может сломать верстку
 https://www.toptal.com/developers/html-minifier
+
+### минификация svg
+https://svgomg.net
