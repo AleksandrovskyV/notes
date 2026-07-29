@@ -33,6 +33,8 @@ python -m http.server 8000 --bind 0.0.0.0
 3531 строка > 669 строк
 
 upd.. может сломать верстку<br>
+up2.. не поддерживает CSS Nesting - не знаю что это...
+up3.. просто убрал группировку одним селектором и вроде хорошо
 https://www.toptal.com/developers/html-minifier
 
 ### минификация svg
