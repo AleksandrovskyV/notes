@@ -61,7 +61,7 @@ css cелектор для элемента c тегом "class" будучи в
     <div> class="text" </div>
 </div> 
 ```
-будет выглядеть так: `#element .text` `<br>
+будет выглядеть так: `#element .text`<br><br>
 Удачи!
 
 
