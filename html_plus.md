@@ -49,7 +49,7 @@ copy from<br>
 
 ### минификация png
 Выставляю "output format : css background", <br>
-чтобы сразу вставить в styles.css
+чтобы сразу вставить в `обои.css`<br>
 <https://base64.guru/converter/encode/image/png>
 
 
