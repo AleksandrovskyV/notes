@@ -53,3 +53,15 @@ copy from<br>
 <https://base64.guru/converter/encode/image/png>
 
 
+### ЦСС
+css cелектор для элемента c тегом "class" будучи внутри div элемента с наличием id.. <br>
+Сложно? Я сам ничерта не понял
+```bash
+<div> id="element" </div>
+    <div> class="text" </div>
+</div> 
+```
+будет выглядеть так: `#element .text` `<br>
+Удачи!
+
+
