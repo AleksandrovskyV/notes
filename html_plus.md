@@ -34,23 +34,22 @@ python -m http.server 8000 --bind 0.0.0.0
 3531 строка > 669 строк
 
 upd.. может сломать верстку<br>
-up2.. не поддерживает CSS Nesting - не знаю что это...
-up3.. просто убрал группировку одним селектором и вроде хорошо
+up2.. не поддерживает CSS Nesting - не знаю что это...<br>
+up3.. просто убрал группировку одним селектором и вроде хорошо<br>
 <https://www.toptal.com/developers/html-minifier>
 
 ### минификация svg
 copy from<br>
-https://svgomg.net <br>
-paste to <br>
-https://yoksel.github.io/url-encoder/
+<https://svgomg.net> and paste to <br>
+<https://yoksel.github.io/url-encoder/>
 
 ### минификация шрифта 
-из ttf > woff2 > сразу для css <br>
-https://transfonter.org/
+из ttf > woff2 > и на выходе сразу байткод для css <br>
+<https://transfonter.org/>
 
 ### минификация png
-Выставляю сразу "output format (css background)",<br>
+Выставляю "output format : css background", <br>
 чтобы сразу вставить в styles.css
-https://base64.guru/converter/encode/image/png
+<https://base64.guru/converter/encode/image/png>
 
 
