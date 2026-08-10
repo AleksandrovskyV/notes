@@ -30,96 +30,105 @@
 
     // img base64 to jpeg
     async function processAndSaveImage(imgEl) {
-        const src = imgEl.getAttribute('src') || '';
-        if (!src) return '';
+        try {
+            const src = imgEl.getAttribute('src') || '';
+            if (!src || !src.startsWith('data:image')) return '';
 
-        let base64Data = '';
-        let extension = 'png';
+            let base64Data = '';
+            let extension = 'png';
 
-        if (src.startsWith('data:image')) {
             const matches = src.match(/^data:image\/([a-zA-Z+]+);base64,(.+)$/);
             if (matches && matches.length === 3) {
                 extension = matches[1] === 'jpeg' ? 'jpg' : matches[1];
                 base64Data = matches[2];
             }
-        } 
 
-        if (base64Data) {
+            if (!base64Data) return '';
+
             const fileName = `image_${imageCounter}.${extension}`;
+            
+            // Быстрый бинарный парсинг без ручного выделения медленных JS-массивов
             const byteCharacters = atob(base64Data);
-            const byteNumbers = new Array(byteCharacters.length);
+            const byteArray = new Uint8Array(byteCharacters.length);
             for (let i = 0; i < byteCharacters.length; i++) {
-                byteNumbers[i] = byteCharacters.charCodeAt(i);
+                byteArray[i] = byteCharacters.charCodeAt(i);
             }
-            const byteArray = new Uint8Array(byteNumbers);
+            
             const blob = new Blob([byteArray], { type: `image/${extension}` });
 
-            try {
-                const fileHandle = await sourceDirHandle.getFileHandle(fileName, { create: true });
-                const writable = await fileHandle.createWritable();
-                await writable.write(blob);
-                await writable.close();
-                
-                imageCounter++;
-                return `<details><summary>USER IMG</summary>\n\n<img src="source/${fileName}" alt="image" />\n\n</details>\n\n`;
-            } catch (fileErr) {
-                console.error(`Error Img Write ${fileName}:`, fileErr);
-                return '';
-            }
+            // Изолированная атомарная запись на диск
+            const fileHandle = await sourceDirHandle.getFileHandle(fileName, { create: true });
+            const writable = await fileHandle.createWritable();
+            await writable.write(blob);
+            await writable.close();
+            
+            imageCounter++;
+            return `<details><summary>USER IMG</summary>\n\n<img src="source/${fileName}" alt="image" />\n\n</details>\n\n`;
+        } catch (fileErr) {
+            // При ЛЮБОМ сбое с картинкой (atob, права папки, лимиты памяти) — просто пишем лог и не валим скрипт
+            console.error('Критический сбой обработки картинки (пропущено):', fileErr);
+            return '';
         }
-        return '';
     }
 
-    let markdown = `<br><br><br>\n\n# Монолог\n_${new Date().toLocaleString()}_\n\n<br><br>\n\n`;
+    // Чистка ответа, от поломки верстки файла .md
+    const checkText = (str) => {
+        if (!str) return '';
 
-    for (const block of chatBlocks) {
+        return String(str)
+            .replace(/^#/gm, '\\#')
+            
+            .replace(/<!--[\s\S]*?-->/g, (match) => {
+                return match.replace(/</g, '&lt;').replace(/>/g, '&gt;');
+            })
+            .replace(/<!DOCTYPE\b[^>]*>/gi, (match) => {
+                return match.replace(/</g, '&lt;').replace(/>/g, '&gt;');
+            })
+            .replace(/<!\[CDATA\[[\s\S]*?\]\]>/g, (match) => {
+                return match.replace(/</g, '&lt;').replace(/>/g, '&gt;');
+            })
+            .replace(/<\?[\s\S]*?\?>/g, (match) => {
+                return match.replace(/</g, '&lt;').replace(/>/g, '&gt;');
+            })
+            .replace(/<\/?[a-z][^>]*>/gi, (match) => {
+                return match
+                    .replace(/</g, '&lt;')
+                    .replace(/>/g, '&gt;');
+            });
+    };
+
+    // Проверка пользовательских ссылок
+    const makeLinksClickable = (str) => {
+        const urlRegex = /https?:\/\/[^\s<]+/g;
+        return str.replace(urlRegex, (url) => {
+            const cleanUrl = url.replace(/[.,!?]+$/, '');
+            const trailingPunctuation = url.slice(cleanUrl.length);
+            return `[${cleanUrl}](${cleanUrl})${trailingPunctuation}`;
+        });
+    };
+
+
+    // Парсинга контейнера вопрос-ответ (RH7zg или CKgc1d)
+    async function parseSingleMessageBlock(container) {
 
         // --- 1. User Quest ---
-        const userImg = block.querySelector('div.FSWZL img, img.taqkMe');
+        const userImg = container.querySelector('div.FSWZL img, img.taqkMe');
 
         let userImagesMarkdown = '';
         if (userImg) {
-            userImagesMarkdown = await processAndSaveImage(userImg);
+            try {
+                userImagesMarkdown = await processAndSaveImage(userImg);
+            } catch (outerImgErr) {
+                console.error('Внешний перехват ошибки вызова картинки:', outerImgErr);
+                userImagesMarkdown = '';
+            }
         }
 
-        // Чистка AI ответа, которые могут сломать верстку файла .md
-        const checkText = (str) => {
-            if (!str) return '';
-
-            return String(str)
-                .replace(/<!--[\s\S]*?-->/g, (match) => {
-                    return match.replace(/</g, '&lt;').replace(/>/g, '&gt;');
-                })
-                .replace(/<!DOCTYPE\b[^>]*>/gi, (match) => {
-                    return match.replace(/</g, '&lt;').replace(/>/g, '&gt;');
-                })
-                .replace(/<!\[CDATA\[[\s\S]*?\]\]>/g, (match) => {
-                    return match.replace(/</g, '&lt;').replace(/>/g, '&gt;');
-                })
-                .replace(/<\?[\s\S]*?\?>/g, (match) => {
-                    return match.replace(/</g, '&lt;').replace(/>/g, '&gt;');
-                })
-                .replace(/<\/?[a-z][^>]*>/gi, (match) => {
-                    return match
-                        .replace(/</g, '&lt;')
-                        .replace(/>/g, '&gt;');
-                });
-        };
-
-        const userTextSpan = block.querySelector('span[jsname="eFVkfb"] span[jsname="y5v2y"]');
+        const userTextSpan = container.querySelector('span[jsname="eFVkfb"] span[jsname="y5v2y"]');
 
         if (userTextSpan) {
             let text = userTextSpan.innerText.trim(); 
             // Оборачивания ссылок в Markdown-формат [URL](URL) [1]
-            const makeLinksClickable = (str) => {
-                const urlRegex = /https?:\/\/[^\s<]+/g;
-                return str.replace(urlRegex, (url) => {
-                    const cleanUrl = url.replace(/[.,!?]+$/, '');
-                    const trailingPunctuation = url.slice(cleanUrl.length);
-                    return `[${cleanUrl}](${cleanUrl})${trailingPunctuation}`;
-                });
-            };
-
 
             /* Определяем вставку пользователя
                 Мы точно знаем, что Google превратит текст пользователя в plain и, вероятно, удалит перенос между основным вопросом и следующей вставкой
@@ -184,7 +193,7 @@
 
         // --- 2. AI Answer ---
 
-        const aiContainer = block.querySelector('div[data-subtree="aimc"] div[jsname="KFl8ub"]');
+        const aiContainer = container.querySelector('div[data-subtree="aimc"] div[jsname="KFl8ub"]');
         if (aiContainer) {
             markdown += `####\n<details><summary>AI ANSWER</summary><br>\n\n`;
 
@@ -253,6 +262,24 @@
                 }
             }
             markdown += `</details>\n\n`;
+        }
+    }
+
+    let markdown = `<br><br><br>\n\n# Монолог\n_${new Date().toLocaleString()}_\n\n<br><br>\n\n`;
+    console.log("TotalLength",chatBlocks.length);
+
+    // Глобальный цикл по верхнеуровневым блокам RH7zg
+    for (const topBlock of chatBlocks) {
+        // вложенные блоки внутри текущего RH7zg
+        const nestedBlocks = topBlock.querySelectorAll('div.CKgc1d[jsname="CS7uPe"]');
+
+        if (nestedBlocks.length > 0) {
+            console.log(`Найдена цепочка из ${nestedBlocks.length} вложенных блоков внутри RH7zg`);
+            for (const nestedBlock of nestedBlocks) {
+                parseSingleMessageBlock(nestedBlock);
+            }
+        } else {
+            parseSingleMessageBlock(topBlock);
         }
     }
 

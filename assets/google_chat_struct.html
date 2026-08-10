@@ -1,75 +1,84 @@
 <!--Пример структуры чата с Google AI   -->
 
-<!-- Каждый запрос пользователя к AI хранится в таком блоке. Весь диалог, представляет последовательную цепочку таких блоков  -->
-<div jsname="RH7zg" jsmodel="CPTaDd LUQCCe pRMv2d" class="tonYlb" >
 
-    <!-- Он содержит вопрос пользователя хранящийся в этом блоке, -->
-    <!-- Пометка, что этот блок содержит дополнительную информацию, которая прилагается к вопросу, но не важна контекстуально):-->
-    <div jsuid="JJyRe_1" class="ilZyRc R7mRQb" jsaction="rcuQ6b:&amp;JJyRe_1|npT2md" jscontroller="TB3Kme#Vp2Xub" > 
+<!-- Глобально вся цепочка блоков лежит в этот div-->
+<div class="qJYHHd mp0vvc" jsmodel="TqqUIc" jscontroller="rp3bDc#yvgtQb">
 
-        <!-- А внутри пользовательского вопроса лежит сам текст пользователя:-->
-        <span jsuid="JJyRe_3" class="VndcI veK2kb" jsname="eFVkfb"><span jsname="y5v2y">Я про наш с тобой чат</span></span>
-    </div>
+    <!-- Каждый запрос пользователя к AI хранится в таком блоке. Весь диалог, представляет последовательную цепочку таких блоков  -->
+    <div jsname="RH7zg" jsmodel="CPTaDd LUQCCe pRMv2d" class="tonYlb" >
 
-    <!-- Ответ от AI идёт за ним-->
-    <div data-subtree="aimc" jscontroller="v48bt#VKyOOd">
+        <!-- Есть вариант, где на странице будет один RH7zg, который заархивирует в себя цепочку блоков по таким div системно аналогичным блокам RH7zg (внутри запрос - ответ), разница в том, что блоки будут являтся дочерними элементами RH7zg-->
+        <div class="CKgc1d" jsname="CS7uPe" jsmodel="p9hQFe CPTaDd LUQCCe wuVnCd KgpZcc pRMv2d" jscontroller="uUCgYd#gXWog">
 
-        <!-- Сам ответ лежит в -->
-        <div jsuid="JJyRe_13" jsname="KFl8ub" class="mZJni Dn7Fzd" jsaction="cC6SSe:&amp;JJyRe_13|mNzCb;rcuQ6b:&amp;JJyRe_13|npT2md" jscontroller="Aoijq#INwBm" >
+        <!-- Он содержит вопрос пользователя хранящийся в этом блоке, -->
+        <!-- Пометка, что этот блок содержит дополнительную информацию, которая прилагается к вопросу, но не важна контекстуально):-->
+        <div jsuid="JJyRe_1" class="ilZyRc R7mRQb" jsaction="rcuQ6b:&amp;JJyRe_1|npT2md" jscontroller="TB3Kme#Vp2Xub" > 
 
-            <!-- Где каждая часть его ответа делится на множество div, таких как -->
+            <!-- А внутри пользовательского вопроса лежит сам текст пользователя:-->
+            <span jsuid="JJyRe_3" class="VndcI veK2kb" jsname="eFVkfb"><span jsname="y5v2y">Я про наш с тобой чат</span></span>
+        </div>
 
-                <!-- Обычный текст -->
-                <div class="n6owBd awi2gc" jscontroller="TDBkbc#Ml18Xb" >Здесь будет текст</div>
+        <!-- Ответ от AI идёт за ним-->
+        <div data-subtree="aimc" jscontroller="v48bt#VKyOOd">
 
-                <!-- Межстрочная линия -->
-                <hr class="j3tEEe" jscontroller="llbKvd#iOlsLd">
+            <!-- Сам ответ лежит в -->
+            <div jsuid="JJyRe_13" jsname="KFl8ub" class="mZJni Dn7Fzd" jsaction="cC6SSe:&amp;JJyRe_13|mNzCb;rcuQ6b:&amp;JJyRe_13|npT2md" jscontroller="Aoijq#INwBm" >
 
-                <!-- Заголовок -->
-                <div class="otQkpb" role="heading" jscontroller="a7qCn#ZxCkTb">Здесь будет текст</div>
+                <!-- Где каждая часть его ответа делится на множество div, таких как -->
 
-                <!-- Пункты -->
-                <ol class="IaGLZe VimKh" jscontroller="xE4zce#N1SbDe">
-                    <li class="Z1qcYe" jscontroller="oSLmPe#HokZ0d" ><span class="iNqyIf" jscontroller="KdQfFc#d5Qebf">Первый текст</span></li>
-                    <li class="Z1qcYe" jscontroller="oSLmPe#HokZ0d" ><span class="iNqyIf" jscontroller="KdQfFc#d5Qebf">Второй текст</span></li>
-                    <li class="Z1qcYe" jscontroller="oSLmPe#HokZ0d" ><span class="iNqyIf" jscontroller="KdQfFc#d5Qebf">Третий текст</span></li>
-                </ol>
+                    <!-- Обычный текст -->
+                    <div class="n6owBd awi2gc" jscontroller="TDBkbc#Ml18Xb" >Здесь будет текст</div>
 
-                <!-- Код -->
-                <div class="r1PmQe" jscontroller="HP6Sjf#lcO7sb"><div>
-                    <div class="pHpOfb">
-                        <div class="z0e9Qd">
-                            <div class="vVRw1d">javascript</div></div>
-                            <div class="pCTyYe">
-                                <pre><code>
-                                    <!-- Тут код -->
-                                </code></pre>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+                    <!-- Межстрочная линия -->
+                    <hr class="j3tEEe" jscontroller="llbKvd#iOlsLd">
 
+                    <!-- Заголовок -->
+                    <div class="otQkpb" role="heading" jscontroller="a7qCn#ZxCkTb">Здесь будет текст</div>
 
-                <!-- Блок ссылок -->
-                <div jscontroller="zp3Dsd#fP0RJ" jsuid="Tpyyk_a">
-                <div data-container-id="rhs-col" class="ofHStc qmNpEc" jscontroller="Oh6VO#OPWA4e" jsuid="Tpyyk_b" data-ved="2ahUKEwiY19rLpJGWAxV-GRAIHb7cNpYQ3aYQegYIAAgCEAI" >
-                <div style="display: contents">
+                    <!-- Пункты -->
+                    <ol class="IaGLZe VimKh" jscontroller="xE4zce#N1SbDe">
+                        <li class="Z1qcYe" jscontroller="oSLmPe#HokZ0d" ><span class="iNqyIf" jscontroller="KdQfFc#d5Qebf">Первый текст</span></li>
+                        <li class="Z1qcYe" jscontroller="oSLmPe#HokZ0d" ><span class="iNqyIf" jscontroller="KdQfFc#d5Qebf">Второй текст</span></li>
+                        <li class="Z1qcYe" jscontroller="oSLmPe#HokZ0d" ><span class="iNqyIf" jscontroller="KdQfFc#d5Qebf">Третий текст</span></li>
+                    </ol>
 
-                    <div data-type="hovc" jsuid="Tpyyk_7y" class="N6Axvb notranslate" jsaction="closeStickyCorroboration:&amp;Tpyyk_7y|ds0l8e;rcuQ6b:&amp;Tpyyk_7y|npT2md" jscontroller="J8DAFb#ruEjHc">
-                        <div class="Bn16af">
-                            <div class="XEqVsf" >
-                                <ul class="zO5mFe" >
-
-                                    <!-- Каждая ссылка в своём блоке -->
-                                    <li class="h7wxwc"><div class="cRH23c g7lqo sYLMkd" data-crb-el="kXllB" jscontroller="kSTtBc#kzCLhf" ><a class="vIWmYe" aria-label="Google AI Studio Exporter - Chrome Web Store. Страница откроется в новой вкладке." href="https://chromewebstore.google.com/detail/google-ai-studio-exporter/ccahfgoehbkchljcjpclmgbfohefmgnh">
-                                    <li class="h7wxwc"><div class="cRH23c g7lqo sYLMkd" data-crb-el="kXllB" jscontroller="kSTtBc#kzCLhf" ><a class="vIWmYe" aria-label="XWX AI Chat Exporter - Export AI Chats to PDF & Word. Страница откроется в новой вкладке." href="https://www.xwxexporter.com/en">
-                                </ul>
+                    <!-- Код -->
+                    <div class="r1PmQe" jscontroller="HP6Sjf#lcO7sb"><div>
+                        <div class="pHpOfb">
+                            <div class="z0e9Qd">
+                                <div class="vVRw1d">javascript</div></div>
+                                <div class="pCTyYe">
+                                    <pre><code>
+                                        <!-- Тут код -->
+                                    </code></pre>
+                                </div>
                             </div>
                         </div>
                     </div>
 
-                </div></div></div>
 
+                    <!-- Блок ссылок -->
+                    <div jscontroller="zp3Dsd#fP0RJ" jsuid="Tpyyk_a">
+                    <div data-container-id="rhs-col" class="ofHStc qmNpEc" jscontroller="Oh6VO#OPWA4e" jsuid="Tpyyk_b" data-ved="2ahUKEwiY19rLpJGWAxV-GRAIHb7cNpYQ3aYQegYIAAgCEAI" >
+                    <div style="display: contents">
+
+                        <div data-type="hovc" jsuid="Tpyyk_7y" class="N6Axvb notranslate" jsaction="closeStickyCorroboration:&amp;Tpyyk_7y|ds0l8e;rcuQ6b:&amp;Tpyyk_7y|npT2md" jscontroller="J8DAFb#ruEjHc">
+                            <div class="Bn16af">
+                                <div class="XEqVsf" >
+                                    <ul class="zO5mFe" >
+
+                                        <!-- Каждая ссылка в своём блоке -->
+                                        <li class="h7wxwc"><div class="cRH23c g7lqo sYLMkd" data-crb-el="kXllB" jscontroller="kSTtBc#kzCLhf" ><a class="vIWmYe" aria-label="Google AI Studio Exporter - Chrome Web Store. Страница откроется в новой вкладке." href="https://chromewebstore.google.com/detail/google-ai-studio-exporter/ccahfgoehbkchljcjpclmgbfohefmgnh">
+                                        <li class="h7wxwc"><div class="cRH23c g7lqo sYLMkd" data-crb-el="kXllB" jscontroller="kSTtBc#kzCLhf" ><a class="vIWmYe" aria-label="XWX AI Chat Exporter - Export AI Chats to PDF & Word. Страница откроется в новой вкладке." href="https://www.xwxexporter.com/en">
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div></div></div>
+
+            </div>
         </div>
     </div>
-</div>
+
+ </div>
