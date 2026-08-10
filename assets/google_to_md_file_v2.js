@@ -7,7 +7,7 @@
     Каждый блок разделён в .md под SublimeText - быстрое сворачивание по # символу для вопроса и #### для ответа
     Для предпросмотра в SublimeText - я использую MarkdownPreviewEnhanced
     Структура страницы чата с Google-AI описана в google_chat_struct.html
-
+    Есть набросок определения вставки пользователя - но он промахивается и требует ручной коррекции
     */
 
     const chatBlocks = document.querySelectorAll('div[jsname="RH7zg"].tonYlb');
