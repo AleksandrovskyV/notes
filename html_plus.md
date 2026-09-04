@@ -53,7 +53,10 @@ copy from<br>
 <https://base64.guru/converter/encode/image/png>
 
 ### true fast ico
-<https://redketchup.io/icon-converter> 
+<https://redketchup.io/icon-converter>
+
+### favicon
+<https://favicon.im/ru/convert/svg-to-favicon>
 
 ### ЦСС
 css cелектор для элемента c тегом "class" будучи внутри div элемента с наличием id.. <br>
