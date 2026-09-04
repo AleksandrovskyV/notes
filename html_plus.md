@@ -52,6 +52,8 @@ copy from<br>
 чтобы сразу вставить в `обои.css`<br>
 <https://base64.guru/converter/encode/image/png>
 
+### true fast ico
+<https://redketchup.io/icon-converter> 
 
 ### ЦСС
 css cелектор для элемента c тегом "class" будучи внутри div элемента с наличием id.. <br>
