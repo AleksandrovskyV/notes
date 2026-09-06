@@ -14,7 +14,7 @@
 
 <br>
 
-Для этого в <strong>cmd.exe</strong> ввожу ( *копируя отсюда* ) команду   <br>
+Для этого в <strong>cmd.exe</strong> ( *копируя отсюда* ) ввожу команду   <br>
 ```bash
 python -m http.server
 ```
