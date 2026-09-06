@@ -21,7 +21,7 @@ python -m http.server
 
 Файл "index.html" станет дооступен из браузера по адресу: localhost:8000<br><br>
 
-А если вбить:<br>
+<details><summary>А если вбить:</summary>
 
 ```bash
 python -m http.server 8080
@@ -36,6 +36,8 @@ python -m http.server 8000 --bind 0.0.0.0
 
 На телефоне нужно будет вбить ip компьютера<br>
 Мне пришлось вбивать 192.168.0.10:8000 (порт обязателен)
+
+<details>
 
 <br>
 
