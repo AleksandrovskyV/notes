@@ -38,7 +38,8 @@ python -m http.server 8000 --bind 0.0.0.0
 Мне пришлось вбивать 192.168.0.10:8000 (порт обязателен)
 
 
-### windows .ico
+### \[.ico\] - fast create
+Одной ссылкой - 
 <https://redketchup.io/icon-converter>
 
 <br><br><br>
