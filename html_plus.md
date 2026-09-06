@@ -29,7 +29,7 @@ copy from<br>
 <https://yoksel.github.io/url-encoder/>
 
 
-- ### \[ png \]
+- ### \[ .png \]
 Выставляю "output format : css background", <br>
 чтобы сразу вставить в `обои.css`<br>
 <https://base64.guru/converter/encode/image/png>
