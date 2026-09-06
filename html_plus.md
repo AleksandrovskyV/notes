@@ -1,11 +1,12 @@
 <br>
 Заметки связанные с html...
-
 <br>
 
 ### favicon
 выдаёт сразу комплектом и в бой<br>
 <https://favicon.im/ru/convert/svg-to-favicon>
+
+<br>
 
 ## минификации...
 
