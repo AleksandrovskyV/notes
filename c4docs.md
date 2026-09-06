@@ -25,15 +25,20 @@ else:
 
 #### f-строки в 27 не работают 
 
-```python 37
+```python
+#python 37
+
 a = c4d.gui.MessageDialog(f"Failed download: {str(e)}")
+
 b = os.path.join(SCRIPT_DIR, f"{SHORT_NAME}_config.json")
 
 ```
 
-... можно заменить на:
+- ...можно заменить на:
 
-```python 27
+```python
+#python 27
+
 a = c4d.gui.MessageDialog("Failed download: {}\n".format(str(e)))
 
 config_filename = SHORT_NAME + "_config.json"
@@ -41,7 +46,9 @@ b = os.path.join(SCRIPT_DIR, config_filename)
 ```
 
 #### "\n" в 27 не работают , но можно так:
-```python 27
+```python
+#python 27
+
 about_text = (
     "Горит...\n\n"
     "Горит...\n"
