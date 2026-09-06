@@ -1,5 +1,7 @@
 Разные заметочки...
 
+<br><br><br>
+
 ## [RU] На Русском!
 ### 🔹 00. [INIT](https://aleksandrovskyv.github.io/notes/init)<br>
 ### 🔹 01. [C4Docs](https://aleksandrovskyv.github.io/notes/c4docs)<br>
