@@ -18,7 +18,7 @@ import subprocess # запускать сторонние windows.exe
 
 <br>
 
-#### Для проверки версий можно вызвать:
+#### для проверки версии:
 
 ```python
 if sys.version_info >= (3, 0):
@@ -47,6 +47,8 @@ b = os.path.join(SCRIPT_DIR, config_filename)
 
 ```
 
+<br>
+
 #### "\n" в 27 не cработывает
 ```python
 #python 27
@@ -62,6 +64,8 @@ about_text = (
 for i, line in enumerate(about_text.split('\n')):
     self.AddStaticText(ID_ABOUT + i, c4d.BFH_SCALEFIT, name=line, borderstyle=0, initw=0, inith=0)
 ```
+
+<br>
 
 ### А какая вообще ОС ?
 
