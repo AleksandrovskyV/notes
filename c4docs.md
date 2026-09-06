@@ -23,7 +23,7 @@ else:
     import urllib2 as urllib_req
 ```
 
-- f-строки в 27 не работают 
+#### f-строки в 27 не работают 
 
 ```python 37
 a = c4d.gui.MessageDialog(f"Failed download: {str(e)}")
@@ -40,7 +40,7 @@ config_filename = SHORT_NAME + "_config.json"
 b = os.path.join(SCRIPT_DIR, config_filename)
 ```
 
-- "\n" в 27 не работают , но можно так:
+#### "\n" в 27 не работают , но можно так:
 ```python 27
 about_text = (
     "Горит...\n\n"
