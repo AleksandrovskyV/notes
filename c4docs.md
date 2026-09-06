@@ -6,14 +6,15 @@
 
 ### imports:
 
-- sys - системные \@\_\@
-- urllib - для запросов в интернет (скачать файл как пример)
-- subprocess - запускать сторонние windows.exe 
-
+```python
+import sys        # системные \@\_\@
+import urllib     # для запросов в интернет (скачать файл как пример)
+import subprocess # запускать сторонние windows.exe 
+```
 
 ### Разница в python между 27 / 37
 
-> *Для проверки версий можно вызвать:*
+- Для проверки версий можно вызвать:
 
 ```python
 if sys.version_info >= (3, 0):
@@ -22,7 +23,7 @@ else:
     import urllib2 as urllib_req
 ```
 
-f-строки в 27 не работают 
+- f-строки в 27 не работают 
 
 ```python 37
 a = c4d.gui.MessageDialog(f"Failed download: {str(e)}")
@@ -30,7 +31,7 @@ b = os.path.join(SCRIPT_DIR, f"{SHORT_NAME}_config.json")
 
 ```
 
-можно заменить на:
+... можно заменить на:
 
 ```python 27
 a = c4d.gui.MessageDialog("Failed download: {}\n".format(str(e)))
@@ -39,7 +40,7 @@ config_filename = SHORT_NAME + "_config.json"
 b = os.path.join(SCRIPT_DIR, config_filename)
 ```
 
-"\n" в 27 не работают , но можно так:
+- "\n" в 27 не работают , но можно так:
 ```python 27
 about_text = (
     "Горит...\n\n"
