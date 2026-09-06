@@ -12,9 +12,13 @@ import urllib     # для запросов в интернет (скачать 
 import subprocess # запускать сторонние windows.exe 
 ```
 
+<br>
+
 ### Разница в python между 27 / 37
 
-- Для проверки версий можно вызвать:
+<br>
+
+#### Для проверки версий можно вызвать:
 
 ```python
 if sys.version_info >= (3, 0):
@@ -32,20 +36,18 @@ a = c4d.gui.MessageDialog(f"Failed download: {str(e)}")
 
 b = os.path.join(SCRIPT_DIR, f"{SHORT_NAME}_config.json")
 
-```
+#...можно заменить на
 
-- ...можно заменить на:
-
-```python
 #python 27
 
 a = c4d.gui.MessageDialog("Failed download: {}\n".format(str(e)))
 
 config_filename = SHORT_NAME + "_config.json"
 b = os.path.join(SCRIPT_DIR, config_filename)
+
 ```
 
-#### "\n" в 27 не работают , но можно так:
+#### "\n" в 27 не cработывает
 ```python
 #python 27
 
@@ -54,6 +56,8 @@ about_text = (
     "Горит...\n"
     "Горит...\n"
 )
+
+# можно испроавить так ... 
 
 for i, line in enumerate(about_text.split('\n')):
     self.AddStaticText(ID_ABOUT + i, c4d.BFH_SCALEFIT, name=line, borderstyle=0, initw=0, inith=0)
