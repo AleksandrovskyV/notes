@@ -39,7 +39,7 @@ a = c4d.gui.MessageDialog(f"Failed download: {str(e)}")
 b = os.path.join(SCRIPT_DIR, f"{SHORT_NAME}_config.json")
 
 
-####  можно заменить на:
+# можно заменить на:
 
 
 #python 27
@@ -63,7 +63,7 @@ about_text = (
     "Горит...\n"
 )
 
-####  можно испроавить так:
+# можно испроавить так:
 
 for i, line in enumerate(about_text.split('\n')):
     self.AddStaticText(ID_ABOUT + i, c4d.BFH_SCALEFIT, name=line, borderstyle=0, initw=0, inith=0)
@@ -74,12 +74,15 @@ for i, line in enumerate(about_text.split('\n')):
 #### А какая вообще ОС ?
 
 ```python
-if sys.platform == "win32":
-    # Команда для Windows
-    subprocess.run(["dir"], shell=True)
-elif sys.platform == "darwin":
-    # Команда для macOS
-    subprocess.run(["ls"])
+
+if sys.platform == "win32": # Windows
+
+    subprocess.run(["dir"], shell=True) 
+
+elif sys.platform == "darwin": # macOS
+
+    subprocess.run(["ls"]) 
+
 ```
 
 ## Прямые наводки:
