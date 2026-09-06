@@ -28,6 +28,8 @@ else:
     import urllib2 as urllib_req
 ```
 
+<br>
+
 #### f-строки в 27 не работают 
 
 ```python
