@@ -63,7 +63,7 @@ about_text = (
     "Горит...\n"
 )
 
-# можно испроавить так:
+# можно исправить так:
 
 for i, line in enumerate(about_text.split('\n')):
     self.AddStaticText(ID_ABOUT + i, c4d.BFH_SCALEFIT, name=line, borderstyle=0, initw=0, inith=0)
