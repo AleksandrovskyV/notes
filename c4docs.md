@@ -22,8 +22,32 @@ else:
     import urllib2 as urllib_req
 ```
 
+> В 27 не работают f-строки
 
+```python 37
+a = c4d.gui.MessageDialog(f"Failed download: {str(e)}")
+b = os.path.join(SCRIPT_DIR, f"{SHORT_NAME}_config.json")
 
+```
+
+```python 27
+a = c4d.gui.MessageDialog("Failed download: {}\n".format(str(e)))
+
+config_filename = SHORT_NAME + "_config.json"
+b = os.path.join(SCRIPT_DIR, config_filename)
+```
+
+> "\n" не работает, но можно так:
+```python 27
+about_text = (
+    "Горит...\n\n"
+    "Горит...\n"
+    "Горит...\n"
+)
+
+for i, line in enumerate(about_text.split('\n')):
+    self.AddStaticText(ID_ABOUT + i, c4d.BFH_SCALEFIT, name=line, borderstyle=0, initw=0, inith=0)
+```
 
 ### А какая вообще ОС ?
 
