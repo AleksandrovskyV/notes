@@ -1,7 +1,7 @@
 Разные заметочки...
 
 ## [RU] На Русском!
-### 🔹 00. [init]()<br>
+### 🔹 00. [INIT]()<br>
 ### 🔹 01. [C4Docs](https://aleksandrovskyv.github.io/notes/c4docs)<br>
 ### 🔹 02. [C4D > Houdini](https://aleksandrovskyv.github.io/notes/houdini_c4d_ru)<br>
 ### 🔹 03. [HTML+](https://aleksandrovskyv.github.io/notes/html_plus)<br>
