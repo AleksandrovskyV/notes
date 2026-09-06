@@ -8,6 +8,11 @@
 
 ## минификации...
 
+- ### \[ шрифта \] 
+из ttf > woff2 > и на выходе сразу байткод для css <br>
+<https://transfonter.org/>
+
+
 - ### \[ .html \] 
 117  кб     > 67кб<br>
 3531 строка > 669 строк
@@ -23,9 +28,6 @@ copy from<br>
 <https://svgomg.net> and paste to <br>
 <https://yoksel.github.io/url-encoder/>
 
-- ### \[ шрифт \] 
-из ttf > woff2 > и на выходе сразу байткод для css <br>
-<https://transfonter.org/>
 
 - ### \[ png \]
 Выставляю "output format : css background", <br>
