@@ -1,10 +1,11 @@
 <br><br><br>
 
 
-## python scripting
+# python scripting
 
+<br>
 
-### imports:
+## imports:
 
 ```python
 import sys        # системные \@\_\@
@@ -14,7 +15,7 @@ import subprocess # запускать сторонние windows.exe
 
 <br>
 
-### разница между 27 / 37
+## разница между 27 / 37
 
 <br>
 
@@ -67,7 +68,7 @@ for i, line in enumerate(about_text.split('\n')):
 
 <br>
 
-### А какая вообще ОС ?
+#### А какая вообще ОС ?
 
 ```python
 if sys.platform == "win32":
