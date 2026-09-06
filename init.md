@@ -39,7 +39,7 @@ python -m http.server 8000 --bind 0.0.0.0
 
 <br>
 
-### \[ make.ico \]
+## \[ make.ico \]
 Одной ссылкой -\
 <https://redketchup.io/icon-converter>
 
