@@ -41,7 +41,7 @@ python -m http.server 8000 --bind 0.0.0.0
 
 
 ### \[ .ico \] - fast create
-Одной ссылкой - 
+Одной ссылкой -\
 <https://redketchup.io/icon-converter>
 
 <br><br><br>
