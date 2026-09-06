@@ -6,7 +6,7 @@
 ### 🔹 03. [Сёрфер в хроме](https://aleksandrovskyv.github.io/notes/chrome_surfer)<br>
 ### 🔹 04. [HTML+](https://aleksandrovskyv.github.io/notes/html_plus)<br>
 ### 🔹 05. [Make tools](https://aleksandrovskyv.github.io/notes/tools)<br>
-
+### 🔹 05. [Gitpub](https://aleksandrovskyv.github.io/notes/gitpub)<br>
 
 ## [EN] In British!   
 ### 🔹 00. А зачем?<br>
