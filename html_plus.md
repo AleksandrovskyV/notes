@@ -9,29 +9,34 @@
 ## минификации...
 
 - ### \[ шрифта \]
-из ttf > woff2 > и на выходе сразу байткод для css<br>
-<https://transfonter.org/>
+
+    из ttf > woff2 > и на выходе сразу байткод для css <br>
+    <https://transfonter.org/>
 
 
 - ### \[ .html \]
-117  кб     > 67кб<br>
-3531 строка > 669 строк\
-upd.. может сломать верстку<br>
-up2.. не поддерживает CSS Nesting - не знаю что это...<br>
-up3.. просто убрал группировку одним селектором и вроде хорошо<br>
-<https://www.toptal.com/developers/html-minifier>
+
+    117  кб     > 67кб<br>
+    3531 строка > 669 строк
+
+    upd.. может сломать верстку<br>
+    up2.. не поддерживает CSS Nesting - не знаю что это...<br>
+    up3.. просто убрал группировку одним селектором и вроде хорошо<br>
+    <https://www.toptal.com/developers/html-minifier>
 
 
 - ### \[ .svg \]
-copy from\
-<https://svgomg.net> and paste to <br>
-<https://yoksel.github.io/url-encoder/>
+
+    copy from<br>
+    <https://svgomg.net> and paste to <br>
+    <https://yoksel.github.io/url-encoder/>
 
 
 - ### \[ .png \]
-Выставляю "output format : css background", <br>
-чтобы сразу вставить в `обои.css`<br>
-<https://base64.guru/converter/encode/image/png>
+
+    Выставляю "output format : css background", <br>
+    чтобы сразу вставить в `обои.css`<br>
+    <https://base64.guru/converter/encode/image/png>
 
 
 ### ЦСС
