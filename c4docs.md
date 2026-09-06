@@ -36,10 +36,10 @@ else:
 #python 37
 
 a = c4d.gui.MessageDialog(f"Failed download: {str(e)}")
-
 b = os.path.join(SCRIPT_DIR, f"{SHORT_NAME}_config.json")
 
-#...можно заменить на
+
+можно испроавить так:
 
 #python 27
 
@@ -52,7 +52,7 @@ b = os.path.join(SCRIPT_DIR, config_filename)
 
 <br>
 
-#### "\n" в 27 не cработывает
+#### "\n" в 27 не cрабатывает
 ```python
 #python 27
 
@@ -62,7 +62,7 @@ about_text = (
     "Горит...\n"
 )
 
-# можно испроавить так ... 
+можно испроавить так:
 
 for i, line in enumerate(about_text.split('\n')):
     self.AddStaticText(ID_ABOUT + i, c4d.BFH_SCALEFIT, name=line, borderstyle=0, initw=0, inith=0)
