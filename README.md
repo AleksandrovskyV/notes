@@ -5,7 +5,7 @@
 ### 🔹 02. [C4Docs](https://aleksandrovskyv.github.io/notes/c4docs)<br>
 ### 🔹 03. [Сёрфер в хроме](https://aleksandrovskyv.github.io/notes/chrome_surfer)<br>
 ### 🔹 04. [HTML+](https://aleksandrovskyv.github.io/notes/html_plus)<br>
-### 🔹 05. [tools](https://aleksandrovskyv.github.io/notes/tools)<br>
+### 🔹 05. [Make tools](https://aleksandrovskyv.github.io/notes/tools)<br>
 
 
 ## [EN] In British!   
