@@ -37,3 +37,8 @@ python -m http.server 8000 --bind 0.0.0.0
 На телефоне нужно будет вбить ip компьютера<br>
 Мне пришлось вбивать 192.168.0.10:8000 (порт обязателен)
 
+
+### windows .ico
+<https://redketchup.io/icon-converter>
+
+<br><br><br>

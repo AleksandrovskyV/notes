@@ -1,6 +1,11 @@
 <br><br><br>
 
-Заметки связанные с html...
+Заметки связанные с html... 
+
+### favicon
+выдаёт сразу комплектом и в бой<br>
+<https://favicon.im/ru/convert/svg-to-favicon>
+
 
 ### минификация html 
 117  кб     > 67кб<br>
@@ -10,6 +15,7 @@ upd.. может сломать верстку<br>
 up2.. не поддерживает CSS Nesting - не знаю что это...<br>
 up3.. просто убрал группировку одним селектором и вроде хорошо<br>
 <https://www.toptal.com/developers/html-minifier>
+
 
 ### минификация svg
 copy from<br>
@@ -25,11 +31,6 @@ copy from<br>
 чтобы сразу вставить в `обои.css`<br>
 <https://base64.guru/converter/encode/image/png>
 
-### true fast ico
-<https://redketchup.io/icon-converter>
-
-### favicon
-<https://favicon.im/ru/convert/svg-to-favicon>
 
 ### ЦСС
 css cелектор для элемента c тегом "class" будучи внутри div элемента с наличием id.. <br>
@@ -42,4 +43,4 @@ css cелектор для элемента c тегом "class" будучи в
 будет выглядеть так: `#element .text`<br><br>
 Удачи!
 
-
+<br><br><br>
