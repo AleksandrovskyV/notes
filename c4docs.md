@@ -30,7 +30,7 @@ else:
 
 <br>
 
-#### и "f-строки" в 27 не работают 
+#### "f-строки" в 27 не работают 
 
 ```python
 #python 37
@@ -53,7 +53,7 @@ b = os.path.join(SCRIPT_DIR, config_filename)
 
 <br>
 
-#### а "\n" в уже 27 не cрабатывают
+#### и "\n" в уже 27 не cрабатывают
 ```python
 #python 27
 
