@@ -1,7 +1,7 @@
 <br><br><br>
 
 
-## scripting
+## python scripting
 
 
 ### imports:
@@ -14,7 +14,7 @@ import subprocess # запускать сторонние windows.exe
 
 <br>
 
-### Разница в python между 27 / 37
+### разница между 27 / 37
 
 <br>
 
