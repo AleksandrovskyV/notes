@@ -9,16 +9,13 @@
 ## минификации...
 
 - ### \[ шрифта \]
-
-из ttf > woff2 > и на выходе сразу байткод для css <br>
+из ttf > woff2 > и на выходе сразу байткод для css<br>
 <https://transfonter.org/>
 
 
 - ### \[ .html \]
-
 117  кб     > 67кб<br>
-3531 строка > 669 строк
-
+3531 строка > 669 строк\
 upd.. может сломать верстку<br>
 up2.. не поддерживает CSS Nesting - не знаю что это...<br>
 up3.. просто убрал группировку одним селектором и вроде хорошо<br>
@@ -26,14 +23,12 @@ up3.. просто убрал группировку одним селектор
 
 
 - ### \[ .svg \]
-
-copy from<br>
+copy from\
 <https://svgomg.net> and paste to <br>
 <https://yoksel.github.io/url-encoder/>
 
 
 - ### \[ .png \]
-
 Выставляю "output format : css background", <br>
 чтобы сразу вставить в `обои.css`<br>
 <https://base64.guru/converter/encode/image/png>
