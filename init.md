@@ -6,7 +6,7 @@
 <br><br>
 
 
-## \[ mobile html \] - local preview 
+## \[ mobile.html \] - local preview 
 
 > Вместо бесконечных пушей, постоянно забываю, что можно быстро\
 > смотреть мобильную версию прямо с телефона - локально...\
@@ -40,7 +40,7 @@ python -m http.server 8000 --bind 0.0.0.0
 <br><br>
 
 
-### \[ .ico \] - fast create
+### \[ make.ico \]
 Одной ссылкой -\
 <https://redketchup.io/icon-converter>
 
