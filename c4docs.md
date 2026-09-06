@@ -53,7 +53,7 @@ b = os.path.join(SCRIPT_DIR, config_filename)
 
 <br>
 
-#### "\n" в 27 не cрабатывает
+#### а "\n" в уже 27 не cрабатывают
 ```python
 #python 27
 
