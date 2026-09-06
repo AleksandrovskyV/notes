@@ -6,8 +6,9 @@
 выдаёт сразу комплектом и в бой<br>
 <https://favicon.im/ru/convert/svg-to-favicon>
 
+## минификации...
 
-### минификация html 
+- ### \[ .html \] 
 117  кб     > 67кб<br>
 3531 строка > 669 строк
 
@@ -17,16 +18,16 @@ up3.. просто убрал группировку одним селектор
 <https://www.toptal.com/developers/html-minifier>
 
 
-### минификация svg
+- ### \[ .svg \] 
 copy from<br>
 <https://svgomg.net> and paste to <br>
 <https://yoksel.github.io/url-encoder/>
 
-### минификация шрифта 
+- ### \[ шрифт \] 
 из ttf > woff2 > и на выходе сразу байткод для css <br>
 <https://transfonter.org/>
 
-### минификация png
+- ### \[ png \]
 Выставляю "output format : css background", <br>
 чтобы сразу вставить в `обои.css`<br>
 <https://base64.guru/converter/encode/image/png>
