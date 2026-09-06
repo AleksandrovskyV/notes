@@ -14,7 +14,7 @@
 
 ## непроверенно мной:
 
-PyInstaller собирает только из выбранной системы: Windows (.exe), Linux и macOS (.app)
+PyInstaller собирает только из выбранной системы: Windows (.exe), Linux и macOS (.app)\
 Кросс-компиляции нет: сделать файл для Mac, сидя на Windows, нельзя
 
 #### Как это обойти на Windows:
