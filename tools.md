@@ -16,7 +16,7 @@
 
 
 <details>
-<summary><h3>Вброс 1:</h3></summary>
+ <summary><b>Вброс 1:</b></summary>
 
 <p>PyInstaller собирает только из выбранной системы: Windows (.exe), Linux и macOS (.app)<br>
 Кросс-компиляции нет: сделать файл для Mac, сидя на Windows, нельзя</p>
@@ -42,7 +42,7 @@
 
 
 <details>
-<summary><h3>Вброс 2:</h3></summary>
+ <summary><b>Вброс 2:</b></summary>
 
 <p><b>Хостинг на VPS/VDS</b> — это просто «голый» компьютер (на Linux/Ubuntu)<br>
 — Чтобы подключить аналогичную автосборку придётся сильно повозиться...</p>
