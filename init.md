@@ -27,12 +27,13 @@ python -m http.server
 <pre><code>python -m http.server 8080</code></pre>
 <p>Внезапно страница станет доступна по адресу: localhost:8080</p>
 
-<p>Есть ещё -</p>
+<details><summary>Есть ещё...</summary>
 <pre><code>python -m http.server 8000 --bind 0.0.0.0</code></pre>
 <p>Но я не знаю что она делает...</p>
 
 <p>На телефоне нужно будет вбить ip компьютера<br>
 Мне пришлось вбивать 192.168.0.10:8000 (порт обязателен)</p>
+</details>
 
 </details>
 
