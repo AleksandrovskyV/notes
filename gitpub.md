@@ -6,7 +6,7 @@
 
 <br><br>
 
-```
+<pre>
 AleksandrovskyV (github аккаунт) и его "репозитории":
     │
     ├─ aleksandrovskyv.github.io/
@@ -43,14 +43,14 @@ AleksandrovskyV (github аккаунт) и его "репозитории":
     ├─ ae/ 
     ├─ notes/  
     │   ├─ README.md  >      *  Сборщик Jekyll превратит в index.html (c подкл. style.css)
-    │   │                       и при заходе на <https://aleksandrovskyv.github.io/notes/>
-    │   │                                или на <https://vsky.space/notes/>
+    │   │                       и при заходе на <href>https://aleksandrovskyv.github.io/notes/</href>
+    │   │                                или на <href>https://vsky.space/notes/></href>
     │   │                  
     │   │                       можно увидеть стандартный шаблон
     │   │                       создаваемой страницы 
     │   │    
     │   ├─ gitpub.md            По каждому файлу ".md" в репе Jekyll создаст отдельную страницу, пример:
-    │   └─ chrome_surfer.md  >  <https://aleksandrovskyv.github.io/notes/chrome_surfer>
+    │   └─ chrome_surfer.md  >  <href>https://aleksandrovskyv.github.io/notes/chrome_surfer></href>
     │
     │
     │   * репозитории отдельных проектов
@@ -107,4 +107,4 @@ AleksandrovskyV (github аккаунт) и его "репозитории":
     │
     │
     └─ ?
-```
+</pre>
