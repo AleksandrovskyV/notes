@@ -86,13 +86,13 @@ AleksandrovskyV (github аккаунт) и его "репозитории":
     │   │                т.к. нужно было "по особенному" собирать index.html из README.md
     │   ├─ /assets
     │   │    ├─ css/
-    │   │    │   └─ <a style="color:black;" href="https://github.com/AleksandrovskyV/c4d/tree/main/assets/css">style.css</a>
+    │   │    │   └─ <a style="color:black;text-decoration: underline;" href="https://github.com/AleksandrovskyV/c4d/tree/main/assets/css">style.css</a>
     │   │    │       * Базовый шаблон белой темы github(jekyll), создаваемый по шаблону README.md
     │   │    │         из которого я вырезал всё, что только можно было вырезать
     │   │    │   
     │   │    └─ svg/ (экспортировал "Export Selection" через Adobe Illustrator)
     │   │        │  
-    │   │        │  * просто бэкапы, их <a href="https://aleksandrovskyv.github.io/notes/html_plus#-svg-"style="text-decoration: underline;">минифицированные</a> версии зашиты в style.css
+    │   │        │  * просто бэкапы, их <a style="color:black;text-decoration: underline;" href="https://aleksandrovskyv.github.io/notes/html_plus#-svg-">минифицированные</a> версии зашиты в style.css
     │   │        ├─ SwapMats.svg  
     │   │        ├─ MP4Vidoc.svg       
     │   │        │ 
