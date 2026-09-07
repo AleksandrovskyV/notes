@@ -5,9 +5,9 @@
 Всё ради возможности выделения текста курсором...<br>
 
 <pre>
-AleksandrovskyV (github аккаунт) и его "репозитории":
+<a style="color:black;text-decoration: underline;" href="https://github.com/AleksandrovskyV">AleksandrovskyV</a> (github аккаунт) и его "репозитории":
     │
-    ├─ aleksandrovskyv.github.io/
+    ├─ <a style="color:black;text-decoration: underline;" href="aleksandrovskyv.github.io/">aleksandrovskyv.github.io/</a>
     │   │  * GitHub Pages 
     │   │    - source: deploy from a branch 
     │   │    - branch: main, folder: /root
