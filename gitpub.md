@@ -2,9 +2,7 @@
 
 \[ blogger > tumblr > wordpress > bepage > webflow > github \]
 
-Всё ради возможности выделения текста курсором...
-
-<br><br>
+Всё ради возможности выделения текста курсором...<br>
 
 <pre>
 AleksandrovskyV (github аккаунт) и его "репозитории":
