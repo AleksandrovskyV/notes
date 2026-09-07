@@ -4,7 +4,7 @@
 <pre>
 AleksandrovskyV ( <a style="color:black;text-decoration: underline;" href="https://github.com/AleksandrovskyV">github аккаунт</a> ) и его "репозитории":
     │
-    ├─ <a style="color:black;text-decoration: underline;" href="https://github.com/AleksandrovskyV/aleksandrovskyv.github.io/">aleksandrovskyv.github.io/</a>
+    ├─ <a style="color:black;text-decoration: underline;" href="https://github.com/AleksandrovskyV/aleksandrovskyv.github.io/">aleksandrovskyv.github.io/</a> # корень ?
     │   │  * GitHub Pages 
     │   │    - source: deploy from a branch 
     │   │    - branch: main, folder: /root
@@ -17,7 +17,7 @@ AleksandrovskyV ( <a style="color:black;text-decoration: underline;" href="https
     │   │
     │   ├─ 404.html   ( заглушка страницы не найдено )
     │   ├─ CNAME      ( файл содержащий "vsky.space" )
-    │   └─ index.html ( главная страница / корень )
+    │   └─ index.html ( главная страница )
     │
     │
     ├─ <a style="color:black;text-decoration: underline;" href="https://github.com/AleksandrovskyV/files/">files/</a> # 2.24 GB static content img, sound, etc > тяжёлые файлы
