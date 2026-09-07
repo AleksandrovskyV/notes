@@ -76,12 +76,12 @@ AleksandrovskyV ( <a style="color:black;text-decoration: underline;" href="https
     │   │    - branch: main, folder: /root
     │   │    - custom domain: none, enforce https: on
     │   │
-    │   ├─ /.github
-    │   │     └─ /workflows
+    │   ├─ .github/
+    │   │     └─ workflows/
     │   │          └─  <a style="color:black;text-decoration: underline;" href="https://github.com/AleksandrovskyV/c4d/blob/main/.github/workflows/main.yml">main.yml</a>
     │   │              * документ кастомной инструкции сборки конкретно этой репы
     │   │                т.к. нужно было "по особенному" собирать index.html из README.md
-    │   ├─ /assets
+    │   ├─ assets/
     │   │    ├─ css/
     │   │    │   └─ <a style="color:black;text-decoration: underline;" href="https://github.com/AleksandrovskyV/c4d/tree/main/assets/css">style.css</a>
     │   │    │       * Базовый шаблон белой темы github(jekyll), создаваемый по шаблону README.md
