@@ -1,5 +1,5 @@
 \[ *blogger > tumblr > wordpress > bepage > webflow > github* \]
-<br>
+<br><br>
 Всё ради возможности выделения текста курсором...<br><br>
 
 <pre>
