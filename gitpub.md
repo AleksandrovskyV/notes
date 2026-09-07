@@ -50,7 +50,7 @@ AleksandrovskyV (github аккаунт) и его "репозитории":
     │   │                       создаваемой страницы 
     │   │    
     │   ├─ gitpub.md            По каждому файлу ".md" в репе Jekyll создаст отдельную страницу, пример:
-    │   └─ chrome_surfer.md  >  <href>https://aleksandrovskyv.github.io/notes/chrome_surfer></href>
+    │   └─ chrome_surfer.md  >  <https://aleksandrovskyv.github.io/notes/chrome_surfer>
     │
     │
     │   * репозитории отдельных проектов
