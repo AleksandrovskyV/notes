@@ -20,7 +20,7 @@ AleksandrovskyV ( <a style="color:black;text-decoration: underline;" href="https
     │   └─ index.html ( главная страница / корень )
     │
     │
-    ├─ files/ (2.24 GB static content img, sound, etc) > тяжёлые файлы
+    ├─ <a style="color:black;text-decoration:underline;"href="https://github.com/AleksandrovskyV/aleksandrovskyv.github.io/files/">files/</a> # 2.24 GB static content img, sound, etc > тяжёлые файлы
     │   │  * GitHub Pages  
     │   │    - source: deploy from a branch 
     │   │    - branch: main, folder: /root
@@ -87,7 +87,7 @@ AleksandrovskyV ( <a style="color:black;text-decoration: underline;" href="https
     │   │    │       * Базовый шаблон белой темы github(jekyll), создаваемый по шаблону README.md
     │   │    │         из которого я вырезал всё, что только можно было вырезать
     │   │    │   
-    │   │    └─ svg/ (экспортировал "Export Selection" через Adobe Illustrator)
+    │   │    └─ svg/ # экспортировал "Export Selection" через Adobe Illustrator
     │   │        │  
     │   │        │  * просто бэкапы, их <a style="color:black;text-decoration: underline;" href="https://aleksandrovskyv.github.io/notes/html_plus#-svg-">минифицированные</a> версии зашиты в style.css
     │   │        ├─ SwapMats.svg
