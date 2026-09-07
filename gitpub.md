@@ -18,9 +18,9 @@ AleksandrovskyV ( <a style="color:black;text-decoration: underline;" href="https
     │   ├─ графика/
     │   │    └─ index.html 
     │   │
-    │   ├─ 404.html   (заглушка на ошибке)
-    │   ├─ CNAME      (файл содержащий "vsky.space")
-    │   └─ index.html (main page)
+    │   ├─ 404.html   ( заглушка страницы не найдено )
+    │   ├─ CNAME      ( файл содержащий "vsky.space" )
+    │   └─ index.html ( главная страница / корень )
     │
     │
     ├─ files/ (2.24 GB static content img, sound, etc) > тяжёлые файлы
