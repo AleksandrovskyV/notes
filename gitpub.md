@@ -94,7 +94,7 @@ AleksandrovskyV (github аккаунт) и его "репозитории":
     │   │    │   
     │   │    └─ svg/ (экспортировал "Export Selection" через Adobe Illustrator)
     │   │        │  
-    │   │        │  * просто бэкапы, их [минифицированные]() версии зашиты в style.css
+    │   │        │  * просто бэкапы, их <a href="https://aleksandrovskyv.github.io/notes/html_plus#-svg-">минифицированные</a> версии зашиты в style.css
     │   │        ├─ SwapMats.svg  
     │   │        ├─ MP4Vidoc.svg       
     │   │        │ 
