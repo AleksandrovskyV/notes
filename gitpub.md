@@ -7,7 +7,7 @@
 <pre>
 <a style="color:black;text-decoration: underline;" href="https://github.com/AleksandrovskyV">AleksandrovskyV</a> (github аккаунт) и его "репозитории":
     │
-    ├─ <a style="color:black;text-decoration: underline;" href="https://aleksandrovskyv.github.io/">aleksandrovskyv.github.io/</a>
+    ├─ <a style="color:black;text-decoration: underline;" href="https://github.com/AleksandrovskyV/aleksandrovskyv.github.io/">aleksandrovskyv.github.io/</a>
     │   │  * GitHub Pages 
     │   │    - source: deploy from a branch 
     │   │    - branch: main, folder: /root
