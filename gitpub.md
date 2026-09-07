@@ -20,7 +20,7 @@ AleksandrovskyV ( <a style="color:black;text-decoration: underline;" href="https
     │   └─ index.html ( главная страница / корень )
     │
     │
-    ├─ <a style="color:black;text-decoration:underline;"href="https://github.com/AleksandrovskyV/aleksandrovskyv.github.io/files/">files/</a> # 2.24 GB static content img, sound, etc > тяжёлые файлы
+    ├─ <a style="color:black;text-decoration:underline;"href="https://github.com/AleksandrovskyV/files/">files/</a> # 2.24 GB static content img, sound, etc > тяжёлые файлы
     │   │  * GitHub Pages  
     │   │    - source: deploy from a branch 
     │   │    - branch: main, folder: /root
