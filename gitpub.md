@@ -5,7 +5,7 @@
 Всё ради возможности выделения текста курсором...<br>
 
 <pre>
-<a style="color:black;text-decoration: underline;" href="https://github.com/AleksandrovskyV">AleksandrovskyV</a> (github аккаунт) и его "репозитории":
+AleksandrovskyV ( <a style="color:black;text-decoration: underline;" href="https://github.com/AleksandrovskyV">github аккаунт</a> ) и его "репозитории":
     │
     ├─ <a style="color:black;text-decoration: underline;" href="https://github.com/AleksandrovskyV/aleksandrovskyv.github.io/">aleksandrovskyv.github.io/</a>
     │   │  * GitHub Pages 
