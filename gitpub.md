@@ -43,7 +43,7 @@ AleksandrovskyV (github аккаунт) и его "репозитории":
     ├─ ae/ 
     ├─ notes/  
     │   ├─ README.md  >      *  Сборщик Jekyll превратит в index.html (c подкл. style.css)
-    │   │                       и при заходе на <href>https://aleksandrovskyv.github.io/notes/</href>
+    │   │                       и при заходе на <https://aleksandrovskyv.github.io/notes/>
     │   │                                или на <href>https://vsky.space/notes/></href>
     │   │                  
     │   │                       можно увидеть стандартный шаблон
@@ -74,7 +74,7 @@ AleksandrovskyV (github аккаунт) и его "репозитории":
     │   │                         * ссылка на репозиторию
     │   │                      https://aleksandrovskyv.github.io/c4d
     │   │                         * бесплатный домен от Github Pages для репы
-    │   │                      https://vsky.space/c4d/
+    │   │                      <a href="https://vsky.space/c4d/">https://vsky.space/c4d/</a>
     │   │                         * а это подключенный custom domain
     │   │  * GitHub Pages 
     │   │    - source: GitHub Actions
