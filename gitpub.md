@@ -54,11 +54,11 @@ AleksandrovskyV ( <a style="color:black;text-decoration: underline;" href="https
     │   │  * GitHub Pages 
     │   │    - source: deploy from a branch 
     │   │    - branch: main, folder: /root
-    │   │    - custom domain: none, enforce https: off *думаю наследуется от рута, но это не точно
+    │   │    - custom domain: none, enforce https: off, думаю наследуется от рута, но это не точно *
     │   │
-    │   ├─ .gitignore (документ с перечнем директорий и файлов, которые не будут отправляться на сервер)
-    │   ├─ README.md  (описание)
-    │   ├─ style.css  (стиль страницы)
+    │   ├─ .gitignore # документ с перечнем папок и файлов, исключающих их синхронизацию с github`ом
+    │   ├─ README.md  # описание
+    │   ├─ style.css  # стиль страницы
     │   └─ index.html
     │          * Заранее созданный файл index.html, поэтому 
     │            Jekyll игнорирует создание index.html по README.md
