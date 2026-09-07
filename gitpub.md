@@ -13,7 +13,7 @@ AleksandrovskyV (github аккаунт) и его "репозитории":
     │   │  * GitHub Pages 
     │   │    - source: deploy from a branch 
     │   │    - branch: main, folder: /root
-    │   │    - custom domain: vsky.space, enforce https: on (купленный через reg.ru)
+    │   │    - custom domain: vsky.space, enforce https: on ( купленный через <a href="https://reg.ru">reg.ru</a> )
     │   │
     │   ├─ flipbook/
     │   │    └─ index.html 
@@ -21,7 +21,7 @@ AleksandrovskyV (github аккаунт) и его "репозитории":
     │   │    └─ index.html 
     │   │
     │   ├─ 404.html   (заглушка на ошибке)
-    │   ├─ CNAME      (файл содержащий vsky.space)
+    │   ├─ CNAME      (файл содержащий "vsky.space")
     │   └─ index.html (main page)
     │
     │
@@ -43,19 +43,19 @@ AleksandrovskyV (github аккаунт) и его "репозитории":
     ├─ ae/ 
     ├─ notes/  
     │   ├─ README.md  >      *  Сборщик Jekyll превратит в index.html (c подкл. style.css)
-    │   │                       и при заходе на <https://aleksandrovskyv.github.io/notes/>
-    │   │                                или на <https://vsky.space/notes/>
+    │   │                       и при заходе на <a href="https://aleksandrovskyv.github.io/notes/">https://aleksandrovskyv.github.io/notes/</a>
+    │   │                                или на <a href="https://vsky.space/notes/">https://vsky.space/notes/</a>
     │   │                  
     │   │                       можно увидеть стандартный шаблон
     │   │                       создаваемой страницы 
     │   │    
     │   ├─ gitpub.md            По каждому файлу ".md" в репе Jekyll создаст отдельную страницу, пример:
-    │   └─ chrome_surfer.md  >  <https://aleksandrovskyv.github.io/notes/chrome_surfer>
+    │   └─ chrome_surfer.md  >  <a href="https://aleksandrovskyv.github.io/notes/chrome_surfer">https://aleksandrovskyv.github.io/notes/chrome_surfer</a>
     │
     │
     │   * репозитории отдельных проектов
-    ├─ chat/   ссылка > https://vsky.space/chat/
-    ├─ fe/     ссылка > https://vsky.space/fe/
+    ├─ chat/   ссылка > <a href="https://vsky.space/chat/">https://vsky.space/chat/</a>
+    ├─ fe/     ссылка > <a href="https://vsky.space/fe/">https://vsky.space/fe/</a>
     │   │  * GitHub Pages 
     │   │    - source: deploy from a branch 
     │   │    - branch: main, folder: /root
@@ -70,7 +70,7 @@ AleksandrovskyV (github аккаунт) и его "репозитории":
     │
     │
     │   * репозитория проекта с кастомным workflows
-    ├─ c4d/                    https://github.com/AleksandrovskyV/c4d/
+    ├─ c4d/                    <a href="https://github.com/AleksandrovskyV/c4d/">https://github.com/AleksandrovskyV/c4d/</a>
     │   │                         * ссылка на репозиторию
     │   │                      <a href="https://aleksandrovskyv.github.io/c4d">https://aleksandrovskyv.github.io/c4d</a>
     │   │                         * бесплатный домен от Github Pages для репы
