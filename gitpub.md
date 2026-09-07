@@ -54,8 +54,8 @@ AleksandrovskyV (github аккаунт) и его "репозитории":
     │
     │
     │   * репозитории отдельных проектов
-    ├─ chat/   ссылка > <a href="https://vsky.space/chat/">https://vsky.space/chat/</a>
-    ├─ fe/     ссылка > <a href="https://vsky.space/fe/">https://vsky.space/fe/</a>
+    ├─ chat/   ссылка > <a href="https://aleksandrovskyv.github.io/chat/">https://vsky.space/chat/</a>
+    ├─ fe/     ссылка > <a href="https://aleksandrovskyv.github.io/fe/"  >https://vsky.space/fe/</a>
     │   │  * GitHub Pages 
     │   │    - source: deploy from a branch 
     │   │    - branch: main, folder: /root
