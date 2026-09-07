@@ -35,8 +35,7 @@ AleksandrovskyV ( <a style="color:black;text-decoration: underline;" href="https
     │   └─ .nojekyll (не трогаются при пересборке/комитах)
     │
     │
-    │   * репозитории исключительно из .md файлов
-    ├─ ae/ 
+    │   * репозитория исключительно из .md файлов
     ├─ notes/  
     │   ├─ README.md  >      *  Сборщик Jekyll превратит в index.html (c подкл. style.css)
     │   │                       и при заходе на <a href="https://aleksandrovskyv.github.io/notes/">https://aleksandrovskyv.github.io/notes/</a>
