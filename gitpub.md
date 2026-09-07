@@ -44,7 +44,7 @@ AleksandrovskyV ( <a style="color:black;text-decoration: underline;" href="https
     │   │                       можно увидеть стандартный шаблон
     │   │                       создаваемой страницы 
     │   │    
-    │   ├─ gitpub.md            По каждому файлу ".md" в репе Jekyll создаст отдельную страницу, пример:
+    │   ├─ gitpub.md            По каждому файлу ".md" в репе Jekyll создаст отдельную страницу:
     │   └─ chrome_surfer.md  >  <a href="https://aleksandrovskyv.github.io/notes/chrome_surfer">https://aleksandrovskyv.github.io/notes/chrome_surfer</a>
     │
     │
