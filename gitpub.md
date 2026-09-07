@@ -6,6 +6,7 @@
 
 <br><br>
 
+```
 AleksandrovskyV (github аккаунт) и его "репозитории":
     │
     ├─ aleksandrovskyv.github.io/
@@ -106,3 +107,4 @@ AleksandrovskyV (github аккаунт) и его "репозитории":
     │
     │
     └─ ?
+```
