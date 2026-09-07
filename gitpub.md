@@ -1,8 +1,5 @@
-<br><br><br>
-
-\[ blogger > tumblr > wordpress > bepage > webflow > github \]
-
-Всё ради возможности выделения текста курсором...<br>
+\[ blogger > tumblr > wordpress > bepage > webflow > github \]<br>
+Всё ради возможности выделения текста курсором...<br><br>
 
 <pre>
 AleksandrovskyV ( <a style="color:black;text-decoration: underline;" href="https://github.com/AleksandrovskyV">github аккаунт</a> ) и его "репозитории":
