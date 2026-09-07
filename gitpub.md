@@ -54,7 +54,7 @@ AleksandrovskyV ( <a style="color:black;text-decoration: underline;" href="https
     │   │  * GitHub Pages 
     │   │    - source: deploy from a branch 
     │   │    - branch: main, folder: /root
-    │   │    - custom domain: none, enforce https: off *думаю правила наследуются от рута, но это не точно
+    │   │    - custom domain: none, enforce https: off *думаю наследуется от рута, но это не точно
     │   │
     │   ├─ .gitignore (документ с перечнем директорий и файлов, которые не будут отправляться на сервер)
     │   ├─ README.md  (описание)
