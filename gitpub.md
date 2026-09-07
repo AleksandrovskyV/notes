@@ -79,8 +79,8 @@ AleksandrovskyV ( <a style="color:black;text-decoration: underline;" href="https
     │   ├─ .github/
     │   │     └─ workflows/
     │   │          └─  <a style="color:black;text-decoration: underline;" href="https://github.com/AleksandrovskyV/c4d/blob/main/.github/workflows/main.yml">main.yml</a>
-    │   │              * документ кастомной инструкции сборки конкретно этой репы
-    │   │                т.к. нужно было "по особенному" собирать index.html из README.md
+    │   │              * документ кастомной инструкции сборки конкретно этой репы, ведь
+    │   │                мне нужно было "по особенному" собирать index.html из README.md
     │   ├─ assets/
     │   │    ├─ css/
     │   │    │   └─ <a style="color:black;text-decoration: underline;" href="https://github.com/AleksandrovskyV/c4d/tree/main/assets/css">style.css</a>
