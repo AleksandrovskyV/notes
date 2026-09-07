@@ -78,7 +78,7 @@ AleksandrovskyV ( <a style="color:black;text-decoration: underline;" href="https
     │   │
     │   ├─ /.github
     │   │     └─ /workflows
-    │   │          └─  main.yml 
+    │   │          └─  <a style="color:black;text-decoration: underline;" href="https://github.com/AleksandrovskyV/c4d/blob/main/.github/workflows/main.yml">main.yml</a>
     │   │              * документ кастомной инструкции сборки конкретно этой репы
     │   │                т.к. нужно было "по особенному" собирать index.html из README.md
     │   ├─ /assets
@@ -90,12 +90,12 @@ AleksandrovskyV ( <a style="color:black;text-decoration: underline;" href="https
     │   │    └─ svg/ (экспортировал "Export Selection" через Adobe Illustrator)
     │   │        │  
     │   │        │  * просто бэкапы, их <a style="color:black;text-decoration: underline;" href="https://aleksandrovskyv.github.io/notes/html_plus#-svg-">минифицированные</a> версии зашиты в style.css
-    │   │        ├─ SwapMats.svg  
-    │   │        ├─ MP4Vidoc.svg       
+    │   │        ├─ SwapMats.svg
+    │   │        ├─ MP4Vidoc.svg
     │   │        │ 
     │   │        │  * иконки для README.md, c extend зоной под иконкой, 
     │   │        │    чтобы текст справа был защищён и вёрстка README.md была чище
-    │   │        ├─ gh_SwapMats.svg  
+    │   │        ├─ gh_SwapMats.svg
     │   │        └─ gh_MP4Vidoc.svg
     │   │       
     │   └─ README.md < Из него GitHub Actions соберёт index.html по правилам описанным в main.yml 
