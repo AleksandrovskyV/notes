@@ -23,7 +23,7 @@ os.startfile(EXE_PATH)
 
 ```python
 
-import c4d, json
+import c4d, json, subprocess
 
 exe_path = "G:\\Projects\\eloader\\VRAM Folder Crunch Beta.exe"
 tex_path = "G:\\Projects\\eloader\\tex_folder"
@@ -34,7 +34,7 @@ config_json = json.dumps(config, ensure_ascii=False)
 command = [exe_path, "--mode","silent", "--config", config_json]
 
 try:
-    import subprocess
+
     proc = subprocess.Popen(command, creationflags=0x00000010)
     #creationflags на консольный режим открытия
 
