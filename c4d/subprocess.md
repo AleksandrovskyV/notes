@@ -1,4 +1,4 @@
-\[ .exe \] run from \[ .c4d \] betweeen \[ .py \]
+\[ .exe \] run from \[ .c4d \] through \[ .py \]
 
 <br><br>
 
