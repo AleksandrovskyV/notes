@@ -18,7 +18,7 @@ os.startfile(EXE_PATH)
 
 ### Case 2
 Запуск полностью независимого для Cinema 4D\
-.exe файла через модуль subprocess.Popen\
+.exe файла через модуль <a href="http://grep.cs.msu.ru/python3.8_RU/digitology.tech/docs/python_3/library/subprocess.html" style="text-decoration: underline; color: black;">subprocess</a>.Popen\
 С поддержкой аргументов...
 
 ```python
