@@ -7,11 +7,12 @@
 
 ## imports:
 
-```python
-import sys        # системные \@\_\@
-import urllib     # для запросов в интернет (скачать файл как пример)
-import subprocess # запускать сторонние windows.exe 
-```
+<pre><code>
+<strong>import</strong> sys        # системные \@\_\@
+<strong>import</strong> urllib     # для запросов в интернет (скачать файл как пример)
+<strong>import</strong> <a href="./subprocess" style="text-decoration: underline;">subprocess</a> # запускать сторонние windows.exe 
+</code></pre>
+
 
 <br>
 
