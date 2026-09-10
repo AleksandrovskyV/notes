@@ -1,4 +1,4 @@
-\[ .exe \] run from \[ .c4d \] through \[ .py \]
+run \[ .exe \] from \[ .c4d \] via \[ .py \] for?
 
 <br><br>
 
