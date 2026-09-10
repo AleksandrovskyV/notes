@@ -15,7 +15,7 @@
 <p>пока непроверенно...</p>
 
 
-<details>
+<details id="vbros1">
  <summary><b>Вброс 1:</b></summary><br>
 
 <p>PyInstaller собирает только из выбранной системы: Windows (.exe), Linux и macOS (.app)<br>
