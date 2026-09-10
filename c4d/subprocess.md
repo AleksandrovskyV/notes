@@ -51,7 +51,7 @@ except Exception as e:
 ```
 
 Обернутый в диалоговое окно 
-вариант доступен [тут](./files/subprocess_a_test.py), а 
+вариант доступен [тут](./files/subprocess_a_test.py), а пытки
 
 <br>
 
