@@ -64,7 +64,7 @@ about_text = (
     "Горит...\n"
 )
 
-# можно исправить так:
+# можно решить так:
 
 for i, line in enumerate(about_text.split('\n')):
     self.AddStaticText(ID_ABOUT + i, c4d.BFH_SCALEFIT, name=line, borderstyle=0, initw=0, inith=0)
@@ -72,19 +72,7 @@ for i, line in enumerate(about_text.split('\n')):
 
 <br>
 
-#### А какая вообще ОС ?
-
-```python
-
-if sys.platform == "win32": # Windows
-
-    subprocess.run(["dir"], shell=True) 
-
-elif sys.platform == "darwin": # macOS
-
-    subprocess.run(["ls"]) 
-
-```
+...
 
 <br><br>
 
