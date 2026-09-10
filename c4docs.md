@@ -10,7 +10,7 @@
 <pre><code>
 <strong>import</strong> sys        # системные \@\_\@
 <strong>import</strong> urllib     # для запросов в интернет (скачать файл как пример)
-<strong>import</strong> <a href="./subprocess" style="text-decoration: underline;">subprocess</a> # запускать сторонние windows.exe 
+<strong>import</strong> <a href="./c4d/subprocess" style="text-decoration: underline; color: black;">subprocess</a> # запускать сторонние windows.exe 
 </code></pre>
 
 
