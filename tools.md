@@ -9,7 +9,7 @@
 
 текст текст текст. текст?
 
-<details>
+<details id="vbros1">
 <summary>просто вбросы</summary>
 <br>
 <p>пока непроверенно...</p>
