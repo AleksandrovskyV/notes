@@ -1,4 +1,4 @@
-run \[ .exe \] from \[ .c4d \] via \[ .py \] for ?
+run \[ .exe \] from \[ .c4d \] via \[ .py \] for?
 
 <br><br>
 
@@ -58,6 +58,22 @@ except Exception as e:
 ### Case 3-7 
 
 вот [здесь](./files/subprocess_b_test.py)
+
+<br>
+
+#### А какая вообще ОС ?
+
+```python
+
+if sys.platform == "win32": # Windows
+
+    subprocess.run(["dir"], shell=True) 
+
+elif sys.platform == "darwin": # macOS
+
+    subprocess.run(["ls"]) 
+
+```
 
 
 <br><br><br>
