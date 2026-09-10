@@ -3,7 +3,7 @@
 ## \[ .exe \] load from \[ .c4d \]
 
 ### Case 1
-Эмуляция дабл клика по файлу, где 
+Эмуляция дабл клика по файлу, где\
 в качестве примера выбран cmd.exe
 
 ```python
@@ -14,6 +14,7 @@ os.startfile(EXE_PATH)
 
 ```
 
+<br>
 
 ### Case 2
 Запуск полностью независимого для Cinema 4D\
@@ -52,7 +53,11 @@ except Exception as e:
 Обернутый в диалоговое окно 
 вариант доступен [тут](./files/subprocess_a_test.py), а 
 
+<br>
 
 ### Case 3-7 
 
 вот [здесь](./files/subprocess_b_test.py)
+
+
+<br><br><br>
