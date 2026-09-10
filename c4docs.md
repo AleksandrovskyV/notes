@@ -8,9 +8,9 @@
 ## imports:
 
 <pre><code>
-<strong>import</strong> sys        # системные \@\_\@
-<strong>import</strong> urllib     # для запросов в интернет (скачать файл как пример)
-<strong>import</strong> <a href="./c4d/subprocess" style="text-decoration: underline; color: black;">subprocess</a> # запускать сторонние windows.exe 
+<strong>import</strong> sys        <span style="font-style: italic; color: #555555;"># системные \@\_\@</span>
+<strong>import</strong> urllib     <span style="font-style: italic; color: #555555;"># для запросов в интернет (скачать файл как пример)</span>
+<strong>import</strong> <a href="./c4d/subprocess" style="text-decoration: underline; color: black;">subprocess</a> <span style="font-style: italic; color: #555555;"># запускать сторонние windows.exe</span>
 </code></pre>
 
 
