@@ -61,7 +61,7 @@ except Exception as e:
 
 <br>
 
-#### А какая вообще ОС ?
+<a href="https://aleksandrovskyv.github.io/notes/tools#vbros1" style="text-decoration: underline; color: black;">А если ОС не Windows ?</a>
 
 ```python
 
