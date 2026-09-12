@@ -82,10 +82,9 @@ for i, line in enumerate(about_text.split('\n')):
 
 #### Интерфейс окна скрипа:
 
-Константы элементов GeDialog  > [link](https://developers.maxon.net/docs/py/2026_3_0/consts/BF_Layout.html)&nbsp;&nbsp;
+Константы элементов GeDialog  > [link](https://developers.maxon.net/docs/py/2026_3_0/consts/BF_Layout.html)<br>
 
-_\*Типа, чтобы кнопочка растягивались по панельке/группе, нужно в аргумент закинуть корректную константу и как пример:_
-&nbsp;&nbsp;
+_\*Типа, чтобы кнопочка растягивались по панельке/группе, нужно в аргумент закинуть корректную константу и как пример:_<br>
 _self.AddStaticText(666, c4d.BFH_SCALEFIT, name="кнопка")_
 
 <br><br><br><br>
