@@ -87,6 +87,6 @@ for i, line in enumerate(about_text.split('\n')):
 self.AddStaticText(666, <a href="https://developers.maxon.net/docs/py/2026_3_0/consts/BF_Layout.html" style="font-style: italic; text-decoration: underline; color: black;">c4d.BFH_SCALEFIT</a>, name="кнопка")
 </code></pre>
 
-666 - это ID, который должен быть \*всегда уникальным целочисленным int (\*не всегда) иначе<br>можешь словить багги. Чтобы не наступить в кал, используют циклы, чтобы фармить эти offset`ы
+666 - это ID, который должен быть \*всегда уникальным целочисленным int, иначе<br>можешь словить багги. Чтобы не вступить в кал, используют циклы, чтобы фармить эти offset`ы
 
 <br><br><br><br>
