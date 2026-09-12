@@ -82,8 +82,6 @@ for i, line in enumerate(about_text.split('\n')):
 
 #### Интерфейс окна скрипа:
 
-Константы элементов GeDialog  > [link]()<br>
-
 <span style="font-style: italic;">Чтобы кнопочка растягивались по панельке/группе, надо<br>в аргумент нужную константу закинуть, и как пример:<br>
 self.AddStaticText(666, <a href="https://developers.maxon.net/docs/py/2026_3_0/consts/BF_Layout.html" style="text-decoration: underline; color: black;">c4d.BFH_SCALEFIT</a>, name="кнопка")</span>
 
