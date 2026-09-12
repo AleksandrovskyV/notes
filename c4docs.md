@@ -84,7 +84,7 @@ for i, line in enumerate(about_text.split('\n')):
 
 Константы элементов GeDialog  > [link](https://developers.maxon.net/docs/py/2026_3_0/consts/BF_Layout.html)<br>
 
-_\*ну, чтобы кнопочка растягивались по панельке/группе, надо<br>в аргумент закинуть нужную константу, и как пример:_<br>
+_\*ну, чтобы кнопочка растягивались по панельке/группе, надо<br>в аргумент нужную константу закинуть, и как пример:_<br>
 _self.AddStaticText(666, c4d.BFH_SCALEFIT, name="кнопка")_
 
 <br><br><br><br>
