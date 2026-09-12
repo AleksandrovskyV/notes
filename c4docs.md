@@ -82,7 +82,7 @@ for i, line in enumerate(about_text.split('\n')):
 
 #### Интерфейс скриптового [окна](https://developers.maxon.net/docs/py/2026_3_0/modules/c4d.gui/GeDialog/index.html?highlight=gedialog#c4d.gui.GeDialog):
 
-Чтобы кнопочка растягивались по ширине панельки / группы, нужно<br>закинуть в позиционный аргумент конкретную константу, как пример:<br>
+Чтобы кнопочка растягивались по ширине панельки/группы, нужно закинуть<br>в позиционный аргумент конкретную константу, как пример:<br>
 <pre><code>
 self.AddStaticText(666, <a href="https://developers.maxon.net/docs/py/2026_3_0/consts/BF_Layout.html" style="font-style: italic; text-decoration: underline; color: black;">c4d.BFH_SCALEFIT</a>, name="кнопка")
 </code></pre>
