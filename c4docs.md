@@ -74,7 +74,7 @@ for i, line in enumerate(about_text.split('\n')):
 
 ...
 
-<br><br>
+<br>
 
 ## Прямые наводки:
 
