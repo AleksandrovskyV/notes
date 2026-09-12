@@ -82,9 +82,9 @@ for i, line in enumerate(about_text.split('\n')):
 
 #### Интерфейс окна скрипа:
 
+Чтобы кнопочка растягивались по панельке/группе, надо<br>в аргумент нужную константу закинуть, и как пример:<br>
 <pre><code>
-<span style="">Чтобы кнопочка растягивались по панельке/группе, надо<br>в аргумент нужную константу закинуть, и как пример:<br><br>
-self.AddStaticText(666, <a href="https://developers.maxon.net/docs/py/2026_3_0/consts/BF_Layout.html" style="font-style: italic; text-decoration: underline; color: black;">c4d.BFH_SCALEFIT</a>, name="кнопка")</span>
+self.AddStaticText(666, <a href="https://developers.maxon.net/docs/py/2026_3_0/consts/BF_Layout.html" style="font-style: italic; text-decoration: underline; color: black;">c4d.BFH_SCALEFIT</a>, name="кнопка")
 </code></pre>
 
 <br><br><br><br>
