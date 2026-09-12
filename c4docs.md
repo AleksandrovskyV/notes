@@ -80,7 +80,7 @@ for i, line in enumerate(about_text.split('\n')):
 
 Выбор системного файла/директории > [link](https://developers.maxon.net/docs/py/2024_3_0/modules/c4d.storage/index.html?highlight=loaddialog#c4d.storage.LoadDialog)
 
-#### Интерфейс окна скрипа:
+#### Интерфейс скриптового [окна](https://developers.maxon.net/docs/py/2026_3_0/modules/c4d.gui/GeDialog/index.html?highlight=gedialog#c4d.gui.GeDialog):
 
 Чтобы кнопочка растягивались по панельке/группе, надо<br>в аргумент нужную константу закинуть, и как пример:<br>
 <pre><code>
