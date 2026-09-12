@@ -79,6 +79,7 @@ for i, line in enumerate(about_text.split('\n')):
 ## Прямые наводки:
 
 Выбор системного файла/директории > [link](https://developers.maxon.net/docs/py/2024_3_0/modules/c4d.storage/index.html?highlight=loaddialog#c4d.storage.LoadDialog)
+<br>
 
 #### Интерфейс скриптового [окна](https://developers.maxon.net/docs/py/2026_3_0/modules/c4d.gui/GeDialog/index.html?highlight=gedialog#c4d.gui.GeDialog):
 
