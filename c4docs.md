@@ -80,7 +80,9 @@ for i, line in enumerate(about_text.split('\n')):
 
 Выбор системного файла/директории > [link](https://developers.maxon.net/docs/py/2024_3_0/modules/c4d.storage/index.html?highlight=loaddialog#c4d.storage.LoadDialog)
 
-## Интерфейс окна скрипа:
-Константы для элементы > [link](https://developers.maxon.net/docs/py/2026_3_0/consts/BF_Layout.html)
+#### Интерфейс окна скрипа:
+
+Константы элементов GeDialog  > [link](https://developers.maxon.net/docs/py/2026_3_0/consts/BF_Layout.html)
+* Типа, чтобы кнопочки растягивались в окошке, нужно правильные аргументы в метод закидывать
 
 <br><br><br><br>
