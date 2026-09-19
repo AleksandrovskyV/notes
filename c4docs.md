@@ -18,9 +18,7 @@
 
 ## разница между 27 / 37
 
-<br>
-
-#### для проверки версии:
+Для проверки версии:
 
 ```python
 if sys.version_info >= (3, 0):
@@ -31,7 +29,7 @@ else:
 
 <br>
 
-<details markdown="1"><summary>А также:</summary>
+<details markdown="1"><summary><h4>а дальше...</h4></summary>
 
 #### "f-строки" до 37 не работают 
 
