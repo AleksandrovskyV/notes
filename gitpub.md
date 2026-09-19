@@ -69,8 +69,8 @@ AleksandrovskyV ( <a style="color:black;text-decoration: underline;" href="https
     ├─ python/
     │   │ 
     │   ├─ .github/
-    │   │     ├─ workflows/main.yml  < правила сборки GitHub Actions
-    │   │     └─ styles.css          < вшьёт этот .css  внутрь .html
+    │   │     ├─ workflows/<a style="color:black;text-decoration: underline;" href="https://github.com/AleksandrovskyV/python/blob/main/.github/workflows/main.yml">main.yml</a>  < правила сборки GitHub Actions
+    │   │     └─ <a style="color:black;text-decoration: underline;" href="https://github.com/AleksandrovskyV/python/blob/main/.github/styles.css">styles.css</a>          < вшьёт этот .css  внутрь .html
     │   │      
     │   │          * Базовый .css шаблон github(jekyll), по шаблону README.md
     │   │            из которого я вырезал всё, что только можно было вырезать 
