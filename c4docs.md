@@ -33,7 +33,7 @@ else:
 
 #### "f-строки" до 37 не работают 
 
-<details><summary>А если вбить:</summary>
+<details markdown="1"><summary>А если вбить:</summary>
 
 ```python
 #python 37
