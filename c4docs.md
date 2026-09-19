@@ -31,9 +31,9 @@ else:
 
 <br>
 
-#### "f-строки" до 37 не работают 
+<details markdown="1"><summary>А также:</summary>
 
-<details markdown="1"><summary>А если вбить:</summary>
+#### "f-строки" до 37 не работают 
 
 ```python
 #python 37
@@ -53,8 +53,6 @@ config_filename = SHORT_NAME + "_config.json"
 b = os.path.join(SCRIPT_DIR, config_filename)
 
 ```
-
-</details>
 
 <br>
 
@@ -76,6 +74,10 @@ for i, line in enumerate(about_text.split('\n')):
 ```
 
 <br>
+
+</details>
+
+
 
 ...
 
