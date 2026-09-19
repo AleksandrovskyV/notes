@@ -27,8 +27,6 @@ else:
     import urllib2 as urllib_req
 ```
 
-<br>
-
 <details markdown="1"><summary>а дальше...</summary>
 
 #### "f-строки" до 37 не работают 
