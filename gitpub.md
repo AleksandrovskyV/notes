@@ -88,8 +88,8 @@ AleksandrovskyV ( <a style="color:black;text-decoration: underline;" href="https
     │   │     ├─ cursor.svg
     │   │     └─ python.svg
     │   │
-    │   └─ <a style="color:black;text-decoration: underline;" href="https://github.com/AleksandrovskyV/python/blob/main/README.md">README.md</a>     < GitHub Actions превратит этот .md в .html, c помощью pandoc
-    │
+    │   └─ <a style="color:black;text-decoration: underline;" href="https://github.com/AleksandrovskyV/python/blob/main/README.md">README.md</a>     < GitHub Actions превратит этот .md в .html, 
+    │                      c божественной помощью <a style="color:black;text-decoration: underline;" href="https://pandoc.org/">pandoc</a>
     │
     │
     │   * репозитория проекта с кастомным workflows
