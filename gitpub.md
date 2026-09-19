@@ -64,6 +64,29 @@ AleksandrovskyV ( <a style="color:black;text-decoration: underline;" href="https
     │            Jekyll игнорирует создание index.html по README.md
     │
     │
+    │
+    │   * репозитория проекта с кастомным workflows
+    ├─ python/
+    │   │ 
+    │   ├─ .github/
+    │   │     ├─ workflows//main.yml < правила сборки GitHub Actions
+    │   │     └─ styles.css          < вшьёт этот .css  внутрь .html
+    │   │      
+    │   │          * Базовый .css шаблон github(jekyll), по шаблону README.md
+    │   │            из которого я вырезал всё, что только можно было вырезать 
+    │   │          - автоматически находит упомянутые в readme репы, 
+    │   │            ищет в них latest сборку и добавляет актуальные
+    │   │            ссылки на скачивание (.exe)
+    │   │          - проще\лучше чем тот что ниже...
+    │   │ 
+    │   ├─ assets/ 
+    │   │     ├─ cursor.svg
+    │   │     └─ python.svg
+    │   │
+    │   └─ README.md     < GitHub Actions превратит этот файл в .html
+    │
+    │
+    │
     │   * репозитория проекта с кастомным workflows
     ├─ c4d/                    <a href="https://github.com/AleksandrovskyV/c4d/">https://github.com/AleksandrovskyV/c4d/</a>
     │   │                         * ссылка на репозиторию
