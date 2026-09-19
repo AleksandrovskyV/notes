@@ -34,6 +34,8 @@ AleksandrovskyV ( <a style="color:black;text-decoration: underline;" href="https
     │   │
     │   └─ .nojekyll (не трогаются при пересборке/комитах)
     │
+    *
+    │
     │
     │   * репозитория исключительно из .md файлов
     ├─ <a style="color:black;text-decoration: underline;" href="https://github.com/AleksandrovskyV/notes">notes</a>/
