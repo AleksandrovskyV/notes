@@ -33,6 +33,8 @@ else:
 
 #### "f-строки" до 37 не работают 
 
+<details><summary>А если вбить:</summary>
+
 ```python
 #python 37
 
@@ -52,9 +54,12 @@ b = os.path.join(SCRIPT_DIR, config_filename)
 
 ```
 
+</details>
+
 <br>
 
 #### "аналогично с \n"
+
 ```python
 #python 27
 
