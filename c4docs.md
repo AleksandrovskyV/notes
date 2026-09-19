@@ -29,7 +29,11 @@ else:
 
 <br>
 
-<details markdown="1"><summary><h4>а дальше...</h4></summary>
+<details markdown="1"><summary>
+
+#### а дальше...
+
+</summary>
 
 #### "f-строки" до 37 не работают 
 
