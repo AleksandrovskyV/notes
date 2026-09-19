@@ -69,7 +69,7 @@ AleksandrovskyV ( <a style="color:black;text-decoration: underline;" href="https
     ├─ python/
     │   │ 
     │   ├─ .github/
-    │   │     ├─ workflows//main.yml < правила сборки GitHub Actions
+    │   │     ├─ workflows/main.yml  < правила сборки GitHub Actions
     │   │     └─ styles.css          < вшьёт этот .css  внутрь .html
     │   │      
     │   │          * Базовый .css шаблон github(jekyll), по шаблону README.md
@@ -83,7 +83,7 @@ AleksandrovskyV ( <a style="color:black;text-decoration: underline;" href="https
     │   │     ├─ cursor.svg
     │   │     └─ python.svg
     │   │
-    │   └─ README.md     < GitHub Actions превратит этот файл в .html
+    │   └─ README.md     < GitHub Actions превратит этот .md в .html, c помощью pandoc
     │
     │
     │
