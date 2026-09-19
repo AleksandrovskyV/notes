@@ -34,7 +34,10 @@ AleksandrovskyV ( <a style="color:black;text-decoration: underline;" href="https
     │   │
     │   └─ .nojekyll (не трогаются при пересборке/комитах)
     │
-    *
+    │
+    │
+    ├─ &#128684;
+    │
     │
     │
     │   * репозитория исключительно из .md файлов
