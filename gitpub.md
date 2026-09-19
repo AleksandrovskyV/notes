@@ -66,7 +66,7 @@ AleksandrovskyV ( <a style="color:black;text-decoration: underline;" href="https
     │
     │
     │   * репозитория проекта с кастомным workflows
-    ├─ python/
+    ├─ <a style="color:black;text-decoration: underline;" href="https://github.com/AleksandrovskyV/python">python/</a>
     │   │ 
     │   ├─ .github/
     │   │     ├─ workflows/<a style="color:black;text-decoration: underline;" href="https://github.com/AleksandrovskyV/python/blob/main/.github/workflows/main.yml">main.yml</a>  < правила сборки GitHub Actions
@@ -83,7 +83,7 @@ AleksandrovskyV ( <a style="color:black;text-decoration: underline;" href="https
     │   │     ├─ cursor.svg
     │   │     └─ python.svg
     │   │
-    │   └─ README.md     < GitHub Actions превратит этот .md в .html, c помощью pandoc
+    │   └─ <a style="color:black;text-decoration: underline;" href="https://github.com/AleksandrovskyV/python/blob/main/README.md">README.md</a>     < GitHub Actions превратит этот .md в .html, c помощью pandoc
     │
     │
     │
