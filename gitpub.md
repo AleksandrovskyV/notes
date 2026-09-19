@@ -36,7 +36,7 @@ AleksandrovskyV ( <a style="color:black;text-decoration: underline;" href="https
     │
     │
     │   * репозитория исключительно из .md файлов
-    ├─ notes/  
+    ├─ <a style="color:black;text-decoration: underline;" href="https://github.com/AleksandrovskyV/notes">notes</a>/
     │   ├─ README.md  >      *  Сборщик Jekyll превратит в index.html (c подкл. style.css)
     │   │                       и при заходе на <a href="https://aleksandrovskyv.github.io/notes/">https://aleksandrovskyv.github.io/notes/</a>
     │   │                                или на <a href="https://vsky.space/notes/">https://vsky.space/notes/</a>
@@ -66,7 +66,7 @@ AleksandrovskyV ( <a style="color:black;text-decoration: underline;" href="https
     │
     │
     │   * репозитория проекта с кастомным workflows
-    ├─ <a style="color:black;text-decoration: underline;" href="https://github.com/AleksandrovskyV/python">python/</a>
+    ├─ <a style="color:black;text-decoration: underline;" href="https://github.com/AleksandrovskyV/python">python</a>/
     │   │ 
     │   ├─ .github/
     │   │     ├─ workflows/<a style="color:black;text-decoration: underline;" href="https://github.com/AleksandrovskyV/python/blob/main/.github/workflows/main.yml">main.yml</a>  < правила сборки GitHub Actions
