@@ -8,7 +8,7 @@
 
 > Вместо бесконечных пушей, постоянно забываю, что можно быстро\
 > смотреть мобильную версию прямо с телефона - локально...\
-> \* *естественно, с установленным <strong style="color: black; text-decoration: underline;">[python]()</strong>* 
+> \* *естественно, с установленным <strong style="color: black; text-decoration: underline;">[https://www.python.org/]()</strong>* 
 
 <br>
 
