@@ -34,7 +34,7 @@ AleksandrovskyV ( <a style="color:black;text-decoration: underline;" href="https
     │   │
     │   └─ .nojekyll      < файл, запрещающий файлам этой репозитории 
     │                       заново заливаться на сервер\проверяться Jekyll
-    │                       при внесении правок в /root репозитории 
+    │                       при внесении правок в /root репозитории ????
     │
     │
     │
