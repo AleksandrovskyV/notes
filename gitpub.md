@@ -73,8 +73,7 @@ AleksandrovskyV ( <a style="color:black;text-decoration: underline;" href="https
     │   * репозитория проекта с кастомным workflows
     ├─ <a style="color:black;text-decoration: underline;" href="https://github.com/AleksandrovskyV/python">python</a>/
     │   │ 
-    │   ├─ .github/
-    │   │     └─  workflows/<a style="color:black;text-decoration: underline;" href="https://github.com/AleksandrovskyV/python/blob/main/.github/workflows/main.yml">main.yml</a>  < GitHub Actions workflow (правила сборки)
+    │   ├─ .github/workflows/<a style="color:black;text-decoration: underline;" href="https://github.com/AleksandrovskyV/python/blob/main/.github/workflows/main.yml">main.yml</a>  < GitHub Actions workflow (правила сборки)
     │   │
     │   │          * автоматически находит упомянутые в readme репы, 
     │   │            ищет в них latest сборку и добавляет актуальные
