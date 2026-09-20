@@ -95,7 +95,7 @@ for i, line in enumerate(about_text.split('\n')):
 вспомогательный [класс](https://developers.maxon.net/docs/py/2026_3_0/modules/c4d.gui/GeDialog/index.html?highlight=gedialog#c4d.gui.GeDialog) лежащим в модуле c4d (import c4d, ага) для создания интерфейса <br>в окне\панели программы
 
 #### наполнение элементами
-Чтобы кнопочка растягивалась по ширине панельки/группы, нужно закинуть<br>в позиционный аргумент конкретную константу, как пример:<br>
+Чтобы кнопочка растягивалась по ширине панельки\группы, нужно закинуть<br>в позиционный аргумент конкретную константу, как пример:<br>
 <pre><code>
 self.AddStaticText(666, <a href="https://developers.maxon.net/docs/py/2026_3_0/consts/BF_Layout.html" style="font-style: italic; text-decoration: underline; color: black;">c4d.BFH_SCALEFIT</a>, name="кнопка")
 </code></pre>
@@ -119,11 +119,11 @@ self.AddStaticText(666, <a href="https://developers.maxon.net/docs/py/2026_3_0/c
 
 <strong>..:</strong> .. .
 
-<br><br><br><br><br><br>
+<br><br><br>
 
 
 ## прямые наводки:
 
 Выбор системного файла/директории > [link](https://developers.maxon.net/docs/py/2024_3_0/modules/c4d.storage/index.html?highlight=loaddialog#c4d.storage.LoadDialog)
 
-<br>
+<br><br><br><br><br><br>
