@@ -74,22 +74,25 @@ AleksandrovskyV ( <a style="color:black;text-decoration: underline;" href="https
     ├─ <a style="color:black;text-decoration: underline;" href="https://github.com/AleksandrovskyV/python">python</a>/
     │   │ 
     │   ├─ .github/
-    │   │     ├─ workflows/<a style="color:black;text-decoration: underline;" href="https://github.com/AleksandrovskyV/python/blob/main/.github/workflows/main.yml">main.yml</a>  < правила сборки GitHub Actions
-    │   │     └─ <a style="color:black;text-decoration: underline;" href="https://github.com/AleksandrovskyV/python/blob/main/.github/style.css">style.css</a>           < вшьёт этот .css  внутрь .html
-    │   │      
-    │   │          * Базовый .css шаблон github(jekyll), по шаблону README.md
-    │   │            из которого я вырезал всё, что только можно было вырезать 
-    │   │          - автоматически находит упомянутые в readme репы, 
+    │   │     └─  workflows/<a style="color:black;text-decoration: underline;" href="https://github.com/AleksandrovskyV/python/blob/main/.github/workflows/main.yml">main.yml</a>  < GitHub Actions workflow (правила сборки)
+    │   │
+    │   │          * автоматически находит упомянутые в readme репы, 
     │   │            ищет в них latest сборку и добавляет актуальные
     │   │            ссылки на скачивание (.exe)
     │   │          - проще\лучше чем тот что ниже...
-    │   │ 
+    │   │
     │   ├─ assets/ 
     │   │     ├─ cursor.svg
-    │   │     └─ python.svg
+    │   │     ├─ python.svg
+    │   │     └─ <a style="color:black;text-decoration: underline;" href="https://github.com/AleksandrovskyV/python/blob/main/assets/style.css">style.css</a>           <  workflow прицепит .css к .html
+    │   │ 
+    │   │          * Базовый .css шаблон github(jekyll), по шаблону README.md
+    │   │            из которого я вырезал всё, что только можно было вырезать 
     │   │
-    │   └─ <a style="color:black;text-decoration: underline;" href="https://github.com/AleksandrovskyV/python/blob/main/README.md">README.md</a>     < GitHub Actions превратит этот .md в .html, 
+    │   │ 
+    │   └─ <a style="color:black;text-decoration: underline;" href="https://github.com/AleksandrovskyV/python/blob/main/README.md">README.md</a>     < workflow превратит этот .md в .html, 
     │                      c божественной помощью <a style="color:black;text-decoration: underline;" href="https://pandoc.org/">pandoc</a>
+    │
     │
     │
     │   * репозитория проекта с кастомным workflows
