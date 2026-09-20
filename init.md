@@ -29,8 +29,12 @@ python -m http.server
 <p>На телефоне нужно будет вбить ip компьютера<br>
 Мне пришлось вбивать 192.168.0.10:8000 (порт обязателен)</p>
 
-<details><summary>а...</summary>
-вообще можно автоматизировать
+<details><summary>....</summary>
+можно написать скрипт используя модуль "http.server", 
+автоматизировав отдачу html файлов по заданным маршрутам 
+(без flask\fastapi, хотя маршутизация у них приятнее с кучей бонусов)
+что-то <a style="color: black; text-decoration: underline;" href="https://github.com/AleksandrovskyV/svg_viewer">подбное</a> с моего пк
+
 </details>
 </details>
 
