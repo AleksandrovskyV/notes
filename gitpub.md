@@ -5,12 +5,13 @@
 <pre>
 AleksandrovskyV ( <a style="color:black;text-decoration: underline;" href="https://github.com/AleksandrovskyV">github аккаунт</a> ) и его "репозитории":
     │
-    ├─ <a style="color:black;text-decoration: underline;" href="https://github.com/AleksandrovskyV/aleksandrovskyv.github.io/">aleksandrovskyv.github.io/</a>  # корень ?
+    ├─ <a style="color:black;text-decoration: underline;" href="https://github.com/AleksandrovskyV/aleksandrovskyv.github.io/">aleksandrovskyv.github.io/</a>  # корень ?  
     │   │  * GitHub Pages (on Jekyll)
     │   │    - source: deploy from a branch 
     │   │    - branch: main, folder: /root
     │   │    - custom domain: vsky.space, enforce https: on ( купленный через <a href="https://reg.ru">reg.ru</a> )
     │   │
+    │   │    
     │   ├─ flipbook/
     │   │    └─ index.html 
     │   ├─ графика/
@@ -32,7 +33,9 @@ AleksandrovskyV ( <a style="color:black;text-decoration: underline;" href="https
     │   ├─ graphics/
     │   │    └─ g2.png
     │   │
-    │   └─ .nojekyll (не трогаются при пересборке/комитах)
+    │   └─ .nojekyll      < файл, запрещающий файлам этой репозитории 
+    │                       заново заливаться на сервер\проверяться Jekyll
+    │                       при внесении правок в /root репозитории 
     │
     │
     │
@@ -42,7 +45,11 @@ AleksandrovskyV ( <a style="color:black;text-decoration: underline;" href="https
     │
     │   * репозитория исключительно из .md файлов
     ├─ <a style="color:black;text-decoration: underline;" href="https://github.com/AleksandrovskyV/notes">notes</a>/
-    │   │
+    │   │  * GitHub Pages  
+    │   │    - source: deploy from a branch 
+    │   │    - branch: main, folder: /root
+    │   │ 
+    │   │       
     │   ├─ README.md         >  Если сборщик - дефолтный Jekyll (~GitPages)
     │   │                       этот файл будет сконвертирован в index.html
     │   │                       добавляя в его шапку линк на деф. style.css
