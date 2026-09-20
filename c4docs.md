@@ -18,7 +18,9 @@
 Также стоит знать, что Python в Cinema 4D - физически вшит, и набор стандартных библиотек доступен всегда. 
 Естественно, помимо стандартных никто не мешает скачать любые сторонние, но стоит помнить: что, где и как вы качали<br>
 </details><br>
-<pre><code><strong>import</strong> sys        <span style="font-style: italic; color: #555555;"># системные \@\_\@</span>
+<pre><code>
+<strong>import</strong> sys        <span style="font-style: italic; color: #555555;"># системные Python \@\_\@</span>
+<strong>import</strong> c4d        <span style="font-style: italic; color: #555555;"># api для Cinema4D</span>
 <strong>import</strong> urllib     <span style="font-style: italic; color: #555555;"># для запросов в интернет (скачать файл как пример)</span>
 <strong>import</strong> <a href="./c4d/subprocess" style="text-decoration: underline; color: black;">subprocess</a> <span style="font-style: italic; color: #555555;"># запускать сторонние windows.exe</span></code></pre>
 
@@ -36,7 +38,7 @@ else:
     import urllib2 as urllib_req
 ```
 
-<details markdown="1"><summary>а дальше...</summary>
+<details markdown="1"><summary>и помнить про...</summary>
 
 #### "f-строки" до 37 не работают 
 
@@ -88,14 +90,14 @@ for i, line in enumerate(about_text.split('\n')):
 
 <br>
 
-## прямые наводки:
 
-Выбор системного файла/директории > [link](https://developers.maxon.net/docs/py/2024_3_0/modules/c4d.storage/index.html?highlight=loaddialog#c4d.storage.LoadDialog)
+## Интерфейс скриптового окна\панели:
 
-<br>
+Чтобы написанный функционал скрипта было легче вызвать, Maxon<br>
+любезно предоставили вспомогательный [класс](https://developers.maxon.net/docs/py/2026_3_0/modules/c4d.gui/GeDialog/index.html?highlight=gedialog#c4d.gui.GeDialog) лежащим в модуле c4d (import c4d, ага),<br>
+для создания интерфейса в окне\панели программы
 
-#### Интерфейс скриптового [окна](https://developers.maxon.net/docs/py/2026_3_0/modules/c4d.gui/GeDialog/index.html?highlight=gedialog#c4d.gui.GeDialog):
-
+#### Заполнение элементами
 Чтобы кнопочка растягивалась по ширине панельки/группы, нужно закинуть<br>в позиционный аргумент конкретную константу, как пример:<br>
 <pre><code>
 self.AddStaticText(666, <a href="https://developers.maxon.net/docs/py/2026_3_0/consts/BF_Layout.html" style="font-style: italic; text-decoration: underline; color: black;">c4d.BFH_SCALEFIT</a>, name="кнопка")
@@ -121,3 +123,10 @@ self.AddStaticText(666, <a href="https://developers.maxon.net/docs/py/2026_3_0/c
 <strong>..:</strong> .. .
 
 <br><br><br><br><br><br>
+
+
+## прямые наводки:
+
+Выбор системного файла/директории > [link](https://developers.maxon.net/docs/py/2024_3_0/modules/c4d.storage/index.html?highlight=loaddialog#c4d.storage.LoadDialog)
+
+<br>
