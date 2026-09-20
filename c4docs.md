@@ -20,11 +20,9 @@
 Естественно, помимо стандартных никто не мешает скачать любые сторонние, но стоит помнить: что, где и как вы качали\*<br>
 </details><br>
 
-<pre><code>
-<strong>import</strong> sys        <span style="font-style: italic; color: #555555;"># системные \@\_\@</span>
+<pre><code><strong>import</strong> sys        <span style="font-style: italic; color: #555555;"># системные \@\_\@</span>
 <strong>import</strong> urllib     <span style="font-style: italic; color: #555555;"># для запросов в интернет (скачать файл как пример)</span>
-<strong>import</strong> <a href="./c4d/subprocess" style="text-decoration: underline; color: black;">subprocess</a> <span style="font-style: italic; color: #555555;"># запускать сторонние windows.exe</span>
-</code></pre>
+<strong>import</strong> <a href="./c4d/subprocess" style="text-decoration: underline; color: black;">subprocess</a> <span style="font-style: italic; color: #555555;"># запускать сторонние windows.exe</span></code></pre>
 
 
 <br>
