@@ -8,7 +8,7 @@
 
 > Вместо бесконечных пушей, постоянно забываю, что можно быстро\
 > смотреть мобильную версию прямо с телефона - локально...\
-> \* *естественно, с установленным <a style="color: black;" href="https://www.python.org">python</a>* 
+> \* *естественно, с установленным <a style="color: black; text-decoration: underline;" href="https://www.python.org">python</a>* 
 
 <br>
 
