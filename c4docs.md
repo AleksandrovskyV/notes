@@ -92,8 +92,7 @@ for i, line in enumerate(about_text.split('\n')):
 ## создание ui для окна\панели:
 
 Чтобы написанный функционал скрипта было легче вызвать, Maxon любезно предоставили<br>
-вспомогательный [класс](https://developers.maxon.net/docs/py/2026_3_0/modules/c4d.gui/GeDialog/index.html?highlight=gedialog#c4d.gui.GeDialog) лежащим в модуле c4d (import c4d, ага),<br>
-для создания интерфейса в окне\панели программы
+вспомогательный [класс](https://developers.maxon.net/docs/py/2026_3_0/modules/c4d.gui/GeDialog/index.html?highlight=gedialog#c4d.gui.GeDialog) лежащим в модуле c4d (import c4d, ага) <br>для создания интерфейса в окне\панели программы
 
 #### наполнение элементами
 Чтобы кнопочка растягивалась по ширине панельки/группы, нужно закинуть<br>в позиционный аргумент конкретную константу, как пример:<br>
