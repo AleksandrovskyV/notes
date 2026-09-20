@@ -73,7 +73,7 @@ AleksandrovskyV ( <a style="color:black;text-decoration: underline;" href="https
     │   * репозитория проекта с кастомным workflows
     ├─ <a style="color:black;text-decoration: underline;" href="https://github.com/AleksandrovskyV/python">python</a>/
     │   │ 
-    │   ├─ .github/workflows/<a style="color:black;text-decoration: underline;" href="https://github.com/AleksandrovskyV/python/blob/main/.github/workflows/main.yml">main.yml</a>   < workflow (GitHub Actions / правила сборки)
+    │   ├─ .github/workflows/<a style="color:black;text-decoration: underline;" href="https://github.com/AleksandrovskyV/python/blob/main/.github/workflows/main.yml">main.yml</a>   <  workflow (GitHub Actions / правила сборки)
     │   │
     │   │          * автоматически находит упомянутые в readme репы, 
     │   │            ищет в них latest сборку и добавляет актуальные
@@ -89,7 +89,7 @@ AleksandrovskyV ( <a style="color:black;text-decoration: underline;" href="https
     │   │            из которого я вырезал всё, что только можно было вырезать 
     │   │
     │   │ 
-    │   └─ <a style="color:black;text-decoration: underline;" href="https://github.com/AleksandrovskyV/python/blob/main/README.md">README.md</a>   < workflow превратит этот .md в .html, 
+    │   └─ <a style="color:black;text-decoration: underline;" href="https://github.com/AleksandrovskyV/python/blob/main/README.md">README.md</a>   <  workflow превратит этот .md в .html, 
     │                     божественным <a style="color:black;text-decoration: underline;" href="https://pandoc.org/">pandoc</a>
     │
     │
