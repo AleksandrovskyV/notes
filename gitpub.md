@@ -90,7 +90,7 @@ AleksandrovskyV ( <a style="color:black;text-decoration: underline;" href="https
     │   │
     │   │ 
     │   └─ <a style="color:black;text-decoration: underline;" href="https://github.com/AleksandrovskyV/python/blob/main/README.md">README.md</a>   <  workflow превратит этот .md в .html, 
-    │                     божественным <a style="color:black;text-decoration: underline;" href="https://pandoc.org/">pandoc</a>
+    │                     через божественный <a style="color:black;text-decoration: underline;" href="https://pandoc.org/">pandoc</a>
     │
     │
     │
