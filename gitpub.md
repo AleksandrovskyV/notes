@@ -11,7 +11,6 @@ AleksandrovskyV ( <a style="color:black;text-decoration: underline;" href="https
     │   │    - branch: main, folder: /root
     │   │    - custom domain: vsky.space, enforce https: on ( купленный через <a href="https://reg.ru">reg.ru</a> )
     │   │
-    │   │    
     │   ├─ flipbook/
     │   │    └─ index.html 
     │   ├─ графика/
