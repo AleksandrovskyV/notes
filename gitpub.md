@@ -48,7 +48,7 @@ AleksandrovskyV ( <a style="color:black;text-decoration: underline;" href="https
     │   │                       добавляя в его шапку линк на деф. style.css
     │   │
     │   │                       И заходя на <a href="https://aleksandrovskyv.github.io/notes/">https://aleksandrovskyv.github.io/notes</a>
-    │   │                            или на <a href="https://vsky.space/notes/">https://vsky.space                /notes</a>              
+    │   │                            или на <a href="https://vsky.space/notes/"               >https://vsky.space               /notes</a>              
     │   │                       сервер отдаёт браузеру созданный index.html
     │   │    
     │   ├─ gitpub.md         >  Каждый именнованный файл ".md" в репе будет
