@@ -19,8 +19,6 @@ python -m http.server
 
 Файл "index.html" станет дооступен из браузера по адресу: localhost:8000<br>
 <details><summary>А если вбить:</summary>
-
-<br>
 <pre><code>python -m http.server 8080</code></pre>
 <p>Внезапно страница станет доступна по адресу: localhost:8080</p>
 
