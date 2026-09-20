@@ -1,5 +1,5 @@
 <br>_&nbsp;&nbsp;" технично забыв данный [принцип](https://ru.wikipedia.org/wiki/%D0%91%D1%80%D0%B8%D1%82%D0%B2%D0%B0_%D0%9E%D0%BA%D0%BA%D0%B0%D0%BC%D0%B0),<br>_
-_&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;здесь разные заметочки, для, [себя](https://aleksandrovskyv.github.io/) "_
+_&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;здесь разные заметочки, для, [себя](https://aleksandrovskyv.github.io/) "_
 
 <br><br>
 
