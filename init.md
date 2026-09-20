@@ -10,8 +10,6 @@
 > смотреть мобильную версию прямо с телефона - локально...\
 > \* *естественно, с установленным <a style="color: black; text-decoration: underline;" href="https://www.python.org">python</a>* 
 
-<br>
-
 Для этого в <strong>cmd.exe</strong> ввожу ( *копируя отсюда* ) команду
 <pre><code>python -m http.server</code></pre>
 
