@@ -10,7 +10,7 @@
 
 > Вместо бесконечных пушей, постоянно забываю, что можно быстро\
 > смотреть мобильную версию прямо с телефона - локально...\
-> \* *естественно, с установленным <strong><details><summary>python</summary>pip install python</details></strong>* 
+> \* *естественно, с установленным <strong style="color: black; text-decoration: underline;">[python]()</strong>* 
 
 <br>
 
