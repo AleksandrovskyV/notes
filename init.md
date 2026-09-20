@@ -15,7 +15,10 @@
 Для этого в <strong>cmd.exe</strong> ввожу ( *копируя отсюда* ) команду
 <pre><code>python -m http.server</code></pre>
 
-Файл "index.html" станет дооступен из браузера по адресу: localhost:8000<br>
+Файл "index.html" станет дооступен из браузера пк по адресу: localhost:8000<br>
+Чтобы увидеть с телефона в его бразуер нужно вбить ip компьютера, с которого запущен сервер<br>
+Мне пришлось вбивать 192.168.0.10:8000 (порт обязателен)<br>
+
 <details><summary>А если вбить:</summary>
 <pre><code>python -m http.server 8080</code></pre>
 <p>Внезапно страница станет доступна по адресу: localhost:8080</p>
@@ -23,9 +26,6 @@
 <details><summary>Есть ещё...</summary>
 <pre><code>python -m http.server 8000 --bind 0.0.0.0</code></pre>
 <p>Но я не знаю что она делает...</p>
-
-<p>На телефоне нужно будет вбить ip компьютера<br>
-Мне пришлось вбивать 192.168.0.10:8000 (порт обязателен)</p>
 
 <details><summary>....</summary>
 только не пытайся автоматизировать <a style="color: black; text-decoration: underline;" href="https://github.com/AleksandrovskyV/svg_viewer">это</a><br>
