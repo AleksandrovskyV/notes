@@ -30,8 +30,8 @@
 <details><summary>....</summary>
 только не пытайся автоматизировать <a style="color: black; text-decoration: underline;" href="https://github.com/AleksandrovskyV/svg_viewer">это</a><br>
 используя упомянутый выше модуль "http.server"<br> 
-Есть flask\fastapi, с приятными вызовами и кучей<br> 
-бонусов<br> 
+ведь есть flask\fastapi, с приятными вызовами <br> 
+и кучей бонусов<br> 
 
 
 </details>
