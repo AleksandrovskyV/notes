@@ -72,12 +72,12 @@ AleksandrovskyV ( <a style="color:black;text-decoration: underline;" href="https
     │   │    - custom domain: none, enforce https: off, думаю наследуется от рута, но это не точно *
     │   │
     │   ├─ .gitignore # документ с перечнем папок и файлов, исключающих их синхронизацию с github`ом
-    │   ├─ README.md  # описание
+    │   ├─ README.md  # описание к репозитории
     │   ├─ style.css  # стиль страницы
     │   └─ index.html
     │          * Заранее созданный файл index.html, поэтому 
-    │            Jekyll игнорирует создание index.html по README.md
-    │
+    │            Jekyll проигнорирует создание index.html по README.md
+    │            и по запросу браузера будет отдавать его
     │
     │
     │   * репозитория проекта с кастомным workflows
