@@ -28,10 +28,10 @@
 Мне пришлось вбивать 192.168.0.10:8000 (порт обязателен)</p>
 
 <details><summary>....</summary>
-можно написать скрипт используя упомянутый модуль "http.server"<br> 
+можно написать <a style="color: black; text-decoration: underline;" href="https://github.com/AleksandrovskyV/svg_viewer">скрипт</a> используя упомянутый выше модуль "http.server"<br> 
 автоматизировав отдачу html файлов по заданным маршрутам<br> 
-(без flask\fastapi, хотя маршутизация у них приятнее с кучей бонусов)<br> 
-что-то <a style="color: black; text-decoration: underline;" href="https://github.com/AleksandrovskyV/svg_viewer">подбное</a> с моего пк
+(без flask\fastapi, хотя их вызовы гораздо приятнее с кучей бонусов)<br> 
+
 
 </details>
 </details>
