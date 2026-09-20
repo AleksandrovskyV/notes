@@ -12,7 +12,7 @@
 
 <br>
 
-Для этого в <strong>cmd.exe</strong> ввожу ( *копируя отсюда* ) команду<br>
+Для этого в <strong>cmd.exe</strong> ввожу ( *копируя отсюда* ) команду
 <pre><code>python -m http.server</code></pre>
 
 Файл "index.html" станет дооступен из браузера по адресу: localhost:8000<br>
