@@ -105,6 +105,6 @@ self.AddStaticText(666, <a href="https://developers.maxon.net/docs/py/2026_3_0/c
 
 <strong>AI:</strong> Без меня ты бы и близко к нему не подошёл. Признайся!<br>
 
-Я и не скрываю, дружище...
+Я и не скрываю, дружище..
 
 <br><br><br><br><br><br>
