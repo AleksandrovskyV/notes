@@ -6,7 +6,7 @@
 AleksandrovskyV ( <a style="color:black;text-decoration: underline;" href="https://github.com/AleksandrovskyV">github аккаунт</a> ) и его "репозитории":
     │
     ├─ <a style="color:black;text-decoration: underline;" href="https://github.com/AleksandrovskyV/aleksandrovskyv.github.io/">aleksandrovskyv.github.io/</a>  # корень ?
-    │   │  * GitHub Pages 
+    │   │  * GitHub Pages (on Jekyll)
     │   │    - source: deploy from a branch 
     │   │    - branch: main, folder: /root
     │   │    - custom domain: vsky.space, enforce https: on ( купленный через <a href="https://reg.ru">reg.ru</a> )
@@ -42,17 +42,27 @@ AleksandrovskyV ( <a style="color:black;text-decoration: underline;" href="https
     │
     │   * репозитория исключительно из .md файлов
     ├─ <a style="color:black;text-decoration: underline;" href="https://github.com/AleksandrovskyV/notes">notes</a>/
-    │   ├─ README.md  >      *  Сборщик Jekyll превратит в index.html (c подкл. style.css)
-    │   │                       и при заходе на <a href="https://aleksandrovskyv.github.io/notes/">https://aleksandrovskyv.github.io/notes/</a>
-    │   │                                или на <a href="https://vsky.space/notes/">https://vsky.space/notes/</a>
-    │   │                  
-    │   │                       можно увидеть стандартный шаблон
-    │   │                       создаваемой страницы 
+    │   │
+    │   ├─ README.md         >  Если сборщик - дефолтный Jekyll (~GitPages)
+    │   │                       этот файл будет сконвертирован в index.html
+    │   │                       добавляя в его шапку линк на деф. style.css
+    │   │
+    │   │                       И заходя на <a href="https://aleksandrovskyv.github.io/notes/">https://aleksandrovskyv.github.io/notes/</a>
+    │   │                            или на <a href="https://vsky.space/notes/">https://vsky.space/notes/</a>              
+    │   │                       сервер отдаёт браузеру созданный index.html
     │   │    
-    │   ├─ gitpub.md            По каждому файлу ".md" в репе Jekyll создаст отдельную страницу:
+    │   ├─ gitpub.md         >  Каждый именнованный файл ".md" в репе будет
+    │   │                       сконвертирован схожим образом, но имя .html
+    │   │                       уже будет соответствовать имени файла ".md"
+    │   │
+    │   │                       При попытке обратиться из браузера к этому
+    │   │                       имени сервер отдаст ему именнованный .html
+    │   │                       Как пример:
+    │   │  
     │   └─ chrome_surfer.md  >  <a href="https://aleksandrovskyv.github.io/notes/chrome_surfer">https://aleksandrovskyv.github.io/notes/chrome_surfer</a>
+    │                           
     │
-    │
+    │    
     │   * репозитории отдельных проектов
     ├─ chat/   ссылка > <a href="https://aleksandrovskyv.github.io/chat/">https://vsky.space/chat/</a>
     ├─ fe/     ссылка > <a href="https://aleksandrovskyv.github.io/fe/"  >https://vsky.space/fe/</a>
