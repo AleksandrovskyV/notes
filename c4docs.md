@@ -109,15 +109,15 @@ self.AddStaticText(666, <a href="https://developers.maxon.net/docs/py/2026_3_0/c
 
 <strong>AI:</strong> Термин "тип" был взят тобой опрометчиво к такому "типу" абзаца... <br>
 
-<strong>..:</strong> это совет уровня генерации искажённых данных для GetDataAddressW, что убивал проекты?<br>
+<strong>IA:</strong> это совет уровня генерации искажённых данных для GetDataAddressW, что убивал проекты?<br>
 
 <strong>AI:</strong> Без меня ты и близко к нему бы не подошёл. Согласись!<br>
 
-<strong>..:</strong> будь внимательнее дружище, я не скрывал это<br>
+<strong>IA:</strong> будь внимательнее дружище, я не скрывал это<br>
 
 <strong>AI:</strong> Дружище, "ВНИМАТЕЛЬНЕЕ" будь, когда пишешь о методе добавления кнопки, используя AddStaticText. <br>
 
-<strong>..:</strong> .. .
+<strong>IA:</strong> .. .
 
 <br><br><br>
 
