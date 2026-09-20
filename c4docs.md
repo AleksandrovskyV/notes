@@ -109,7 +109,7 @@ self.AddStaticText(666, <a href="https://developers.maxon.net/docs/py/2026_3_0/c
 
 <strong>AI:</strong> Термин "тип" был взят тобой опрометчиво к такому "типу" абзаца... <br>
 
-<strong>..:</strong> нуу, из нас двоих ты пихал в GetDataAddressW искажённые данные, делая проекты битыми)
+<strong>..:</strong> это совет от того, кто сувал в GetDataAddressW искажённые данные, делая проекты битыми?
 
 <strong>AI:</strong> Без меня ты и близко к нему бы не подошёл. Согласись!<br>
 
