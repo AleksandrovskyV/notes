@@ -113,7 +113,7 @@ self.AddStaticText(666, <a href="https://developers.maxon.net/docs/py/2026_3_0/c
 
 <strong>AI:</strong> Без меня ты и близко к нему бы не подошёл. Согласись!<br>
 
-<strong>..:</strong> будь внимательнее, я не скрываю этого, дружище..
+<strong>..:</strong> будь внимательнее, я не скрывал это, дружище..
 
 <strong>AI:</strong> Дружище, "ВНИМАТЕЛЬНЕЕ" будь, когда пишешь о методе добавления кнопки, используя AddStaticText. <br>
 
