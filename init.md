@@ -30,11 +30,11 @@
 <table>
   <tr>
     <td> ПК по адресу</td>
-    <td><strong><span style="color: white;">.</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;localhost:8000</strong></td>
+    <td align="right"><strong>localhost:8000</strong></td>
   </tr>
   <tr>
     <td> Мобилы по ip ПК</td>
-    <td><strong>192.168.0.10:8000</strong></td>
+    <td align="right"><strong>192.168.0.10:8000</strong></td>
   </tr>
 </table>
 
