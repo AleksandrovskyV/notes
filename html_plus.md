@@ -10,15 +10,15 @@
 ## sublime...
 
 <br>
-<details><summary>shortcuts</summary>
+<details markdown="1"><summary>shortcuts</summary>
 
-Например [ctrl+shift+p],
-чтобы вызвать MarkdownPreviewEnhanced, 
-чтобы смотреть README.md с кастомным .css
+например \[ CTRL + SHIFT + P \],<br>
+чтобы вызвать ~~MarkdownPreviewEnhanced~~, [GitpubPreview](https://aleksandrovskyv.github.io/GitpubPreview/)!<br>
+дабы посмотреть `README.md` с кастомным `.css`
 
 <p></p>
 
-<details>
+</details>
 
 ## минификации...
 
