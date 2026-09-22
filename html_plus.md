@@ -19,9 +19,11 @@ Text!
 
 ## минификации...
 
-<details markdown="1"><summary>- ### \[ шрифта \]</summary>
-    из ttf > woff2 > и на выходе сразу байткод для css <br>
-    <https://transfonter.org/>
+<details markdown="1"><summary><strong> \[ шрифта \]</strong></summary>
+
+из ttf > woff2 > и на выходе сразу байткод для css <br>
+<https://transfonter.org/>
+
 </details>
 
 
