@@ -7,10 +7,10 @@
 
 <br>
 
-## w sublime...
+- ##  w sublime...
 ...text!
 <details markdown="1">
-<summary><strong> shortcuts </strong></summary>
+<summary><strong> shortcut </strong></summary>
 
 например \[ CTRL + SHIFT + P \],<br>
 чтобы вызвать ~~MarkdownPreviewEnhanced~~, [GitpubPreview](https://aleksandrovskyv.github.io/GitpubPreview/)!<br>
@@ -19,6 +19,7 @@
 </details>
 
 ## минификации...
+...разные!
 
 <details markdown="1"><summary><strong> expand </strong></summary>
 
@@ -55,7 +56,7 @@
 
 </details>
 
-### ЦСС
+## цсс
 css cелектор для элемента c тегом "class" будучи внутри div элемента с наличием id.. <br>
 Сложно? Я сам ничерта не понял
 ```bash
