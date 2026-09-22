@@ -1,22 +1,19 @@
 Заметки связанные с html...
 <br>
 
-### favicon
+## favicon
 выдаёт сразу комплектом и в бой<br>
-<https://favicon.im/ru/convert/svg-to-favicon>
+<https://favicon.im/ru/convert/svg-to-favicon><br><br>
 
-<br>
-
-##  w sublime...
+## sublime...
 ...text!
-<details markdown="1">
-<summary><strong> shortcut </strong></summary>
+<details markdown="1"><summary><strong> shortcut </strong></summary><br>
 
-например \[ CTRL + SHIFT + P \],<br>
-чтобы вызвать ~~MarkdownPreviewEnhanced~~, [GitpubPreview](https://aleksandrovskyv.github.io/GitpubPreview/)!<br>
-дабы посмотреть `README.md` с кастомным `.css`
+например \[ <b>CTRL</b> + <b>SHIFT</b> + <b>P</b> \]  
+чтобы вызвать ~~MarkdownPreviewEnhanced~~, <b>&nbsp;[GitpubPreview](https://aleksandrovskyv.github.io/GitpubPreview/) !</b> <br>
+дабы видеть `README.md` с кастомным `.css`<br>
 
-</details>
+</details><br>
 
 ## минификации...
 ...разные!
@@ -54,7 +51,7 @@
     <https://base64.guru/converter/encode/image/png>
 
 
-</details>
+</details><br>
 
 ## цсс
 css cелектор для элемента c тегом "class" будучи внутри div элемента с наличием id.. <br>
