@@ -40,7 +40,7 @@
 
 <details><summary>А если вбить:</summary>
 <pre><code>python -m http.server 963</code></pre>
-<p>Внезапно страница станет доступна по адресу: localhost:963</p>
+<p>Внезапно станет доступна в ПК по адресу: <code>localhost:963</code></p>
 
 <details><summary>Есть ещё...</summary>
 <pre><code>python -m http.server 963 --bind 0.0.0.0</code></pre>
