@@ -1,5 +1,5 @@
 Заметки связанные с html...
-<br>
+<br><br>
 
 ## favicon
 выдаёт сразу комплектом и в бой<br>
@@ -7,7 +7,7 @@
 
 ## sublime...
 ...text!
-<details markdown="1"><summary><strong> shortcut </strong></summary><br>
+<details markdown="1"><summary><strong> shortcut __</strong></summary><br>
 
 например \[ <b>CTRL</b> + <b>SHIFT</b> + <b>P</b> \]  
 чтобы вызвать ~~MarkdownPreviewEnhanced~~, <b>&nbsp;[GitpubPreview](https://aleksandrovskyv.github.io/GitpubPreview/) !</b> <br>
@@ -18,7 +18,7 @@
 ## минификации...
 ...разные!
 
-<details markdown="1"><summary><strong> expand </strong></summary>
+<details markdown="1"><summary><strong> expand __</strong></summary>
 
 - ### \[ шрифта \]
 
