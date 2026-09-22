@@ -22,10 +22,11 @@
 
 ## минификации...
 
-- ### \[ шрифта \]
-
+<details markdown="1"><summary>- ### \[ шрифта \]</summary>
     из ttf > woff2 > и на выходе сразу байткод для css <br>
     <https://transfonter.org/>
+</details>
+
 
 
 - ### \[ .html \]
