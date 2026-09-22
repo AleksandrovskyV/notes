@@ -9,7 +9,8 @@
 
 ## w sublime...
 ...text!
-<details markdown="1"><summary>shortcuts</summary>
+<details markdown="1">
+<summary><strong> shortcuts </strong></summary>
 
 например \[ CTRL + SHIFT + P \],<br>
 чтобы вызвать ~~MarkdownPreviewEnhanced~~, [GitpubPreview](https://aleksandrovskyv.github.io/GitpubPreview/)!<br>
@@ -19,7 +20,7 @@
 
 ## минификации...
 
-<details markdown="1"><summary><strong> EXPAND </strong></summary>
+<details markdown="1"><summary><strong> expand </strong></summary>
 
 - ### \[ шрифта \]
 
