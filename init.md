@@ -30,7 +30,7 @@
 <table>
   <tr>
     <td> ПК по адресу</td>
-    <td><strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;localhost:8000</strong></td>
+    <td><strong><span style="color: white;">.</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;localhost:8000</strong></td>
   </tr>
   <tr>
     <td> Мобилы по ip ПК</td>
