@@ -42,6 +42,8 @@
 доступной в локальной сети и если там лежит `.\awesome.html`,  
 она станет доступна по адресу `localhost:8000/awesome.html`  
 
+\* команда запускает исполняемый <strong>.exe</strong> питона, 
+&nbsp;&nbsp;а два аргумента после это запуск модуля по его имени
 
 <details><summary>А если вбить...</summary>
 <pre><code>python -m http.server 963</code></pre>
