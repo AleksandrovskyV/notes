@@ -49,7 +49,7 @@ AleksandrovskyV ( <a style="color:black;text-decoration: underline;" href="https
     │   │    - branch: main, folder: /root
     │   │ 
     │   │ 
-    │   │  * <a href="https://aleksandrovskyv.github.io/GitpubPreview/">Subline Plugin</a>[], дабы облегчить перетасовку слов 
+    │   │  * <a href="https://aleksandrovskyv.github.io/GitpubPreview/">Subline Plugin</a>, дабы облегчить перетасовку слов 
     │   │ 
     │   │ 
     │   ├─ README.md         >  Если сборщик - дефолтный Jekyll (~GitPages)
