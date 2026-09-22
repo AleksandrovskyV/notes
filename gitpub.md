@@ -48,7 +48,10 @@ AleksandrovskyV ( <a style="color:black;text-decoration: underline;" href="https
     │   │    - source: deploy from a branch 
     │   │    - branch: main, folder: /root
     │   │ 
-    │   │       
+    │   │ 
+    │   │  * <a href="https://aleksandrovskyv.github.io/GitpubPreview/">Subline Plugin</a>[], дабы облегчить перетасовку слов 
+    │   │ 
+    │   │ 
     │   ├─ README.md         >  Если сборщик - дефолтный Jekyll (~GitPages)
     │   │                       этот файл будет сконвертирован в index.html
     │   │                       добавляя в его шапку линк на деф. style.css

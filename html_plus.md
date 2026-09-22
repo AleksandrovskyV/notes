@@ -7,6 +7,19 @@
 
 <br>
 
+## sublime...
+
+<br>
+<details><summary>shortcuts</summary>
+
+Например [ctrl+shift+p],
+чтобы вызвать MarkdownPreviewEnhanced, 
+чтобы смотреть README.md с кастомным .css
+
+<p></p>
+
+<details>
+
 ## минификации...
 
 - ### \[ шрифта \]
