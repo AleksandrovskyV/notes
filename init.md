@@ -25,9 +25,18 @@
 <pre><code>python -m http.server</code></pre>
 
 Страница `index.html`  
-из папки где был запущен сервер  
-станет дооступна в браузере ПК по адресу: `localhost:8000`  
-а в браузере моей мобилы по адресу ip ПК: `192.168.0.10:8000`  
+из папки где был запущен сервер
+<table>
+  <tr>
+    <td>станет дооступна в браузере ПК по адресу</td>
+    <td><strong>&nbsp;&nbsp;&nbsp;&nbsp;localhost:8000</strong></td>
+  </tr>
+  <tr>
+    <td>а в браузере моей мобилы по ip адресу ПК</td>
+    <td><strong>192.168.0.10:8000</strong></td>
+  </tr>
+</table>
+
 
 <details><summary>А если вбить:</summary>
 <pre><code>python -m http.server 963</code></pre>
