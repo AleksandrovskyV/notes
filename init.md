@@ -24,7 +24,7 @@
 Для этого в <strong>cmd.exe</strong> ввожу ( *копируя отсюда* ) команду
 <pre><code>python -m http.server</code></pre>
 
-Страница `folder\index.html`  
+Страница `.\index.html`  
 из папки где был запущен сервер  
 станет дооступна в браузере
 <table>
@@ -38,9 +38,9 @@
   </tr>
 </table>
 
-\* `python -m http.server` - отдаёт всю папку в локальную сеть  
-и если в папке лежит `folder\awesome.html`, она станет доступна  
-по адресу `localhost:8000/awesome.html`  
+\* команда `python -m http.server` - делает папку целиком  
+доступной в локальной сети и если там лежит `.\awesome.html`,  
+она станет доступна по адресу `localhost:8000/awesome.html`  
 
 
 <details><summary>А если вбить...</summary>
