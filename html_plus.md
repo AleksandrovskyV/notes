@@ -7,16 +7,13 @@
 
 <br>
 
-## sublime...
-
-<br>
+## w sublime...
+Text!
 <details markdown="1"><summary>shortcuts</summary>
 
 например \[ CTRL + SHIFT + P \],<br>
 чтобы вызвать ~~MarkdownPreviewEnhanced~~, [GitpubPreview](https://aleksandrovskyv.github.io/GitpubPreview/)!<br>
 дабы посмотреть `README.md` с кастомным `.css`
-
-<p></p>
 
 </details>
 
