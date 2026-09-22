@@ -17,9 +17,9 @@
 
 ## \[ mobile.html \] - local preview 
 
-> Вместо бесконечных пушей, вечно забываю, что можно быстро\
-> смотреть мобильную версию .html прямо с телефона - локально...\
-> \* *естественно, с установленным <a style="color: black; text-decoration: underline;" href="https://www.python.org">python</a>* 
+> Вместо бесконечных пушей в <a style="color: black; text-decoration: underline;" href="https://desktop.github.com/download/">Github Desktop</a>, вечно забываю,   
+> что можно смотреть мобильную версию .html с телефона - локально...  
+> \* *разумеется, если установить себе на Windows - <a style="color: black; text-decoration: underline;" href="https://www.python.org">python</a>* 
 
 Для этого в <strong>cmd.exe</strong> ввожу ( *копируя отсюда* ) команду
 <pre><code>python -m http.server</code></pre>
