@@ -15,7 +15,7 @@
 
 <br>
 
-## \[ mobile.html \] - local preview 
+## \[ index.html \] - local preview 
 
 > Вместо бесконечных пушей в <a style="color: black; text-decoration: underline;" href="https://desktop.github.com/download/">Github Desktop</a>, вечно забываю,   
 > что можно смотреть мобильную версию .html с телефона - локально...  
@@ -24,7 +24,7 @@
 Для этого в <strong>cmd.exe</strong> ввожу ( *копируя отсюда* ) команду
 <pre><code>python -m http.server</code></pre>
 
-Страница `index.html`  
+Страница `folder\index.html`  
 из папки где был запущен сервер  
 станет дооступна в браузере
 <table>
@@ -37,6 +37,11 @@
     <td align="right"><strong>192.168.0.10:8000</strong></td>
   </tr>
 </table>
+
+\* `python -m http.server` - отдаёт всю папку в локальную сеть  
+и если в папке лежит `folder\awesome.html`, она станет доступна  
+по адресу `localhost:8000/awesome.html`  
+
 
 <details><summary>А если вбить...</summary>
 <pre><code>python -m http.server 963</code></pre>
