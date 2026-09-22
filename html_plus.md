@@ -7,7 +7,7 @@
 
 <br>
 
-- ##  w sublime...
+##  w sublime...
 ...text!
 <details markdown="1">
 <summary><strong> shortcut </strong></summary>
