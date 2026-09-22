@@ -38,7 +38,7 @@
   </tr>
 </table>
 
-<details><summary>А если вбить:</summary>
+<details><summary>А если вбить...</summary>
 <pre><code>python -m http.server 963</code></pre>
 <p>Внезапно станет доступна в ПК по адресу: <code>localhost:963</code></p>
 
