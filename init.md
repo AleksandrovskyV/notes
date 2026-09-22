@@ -24,27 +24,28 @@
 Для этого в <strong>cmd.exe</strong> ввожу ( *копируя отсюда* ) команду
 <pre><code>python -m http.server</code></pre>
 
-Страница `index.html`<br>
-из папки где был запущен сервер<br>
-станет дооступна в браузере ПК по адресу: `localhost:8000`<br>
-а в браузере мобилы по адресу ip ПК: `192.168.0.10:8000`<br>
+Страница `index.html`  
+из папки где был запущен сервер  
+станет дооступна в браузере ПК по адресу: `localhost:8000`  
+а в браузере моей мобилы по адресу ip ПК: `192.168.0.10:8000`  
 
 <details><summary>А если вбить:</summary>
-<pre><code>python -m http.server 8080</code></pre>
-<p>Внезапно страница станет доступна по адресу: localhost:8080</p>
+<pre><code>python -m http.server 963</code></pre>
+<p>Внезапно страница станет доступна по адресу: localhost:963</p>
 
 <details><summary>Есть ещё...</summary>
-<pre><code>python -m http.server 8000 --bind 0.0.0.0</code></pre>
+<pre><code>python -m http.server 963 --bind 0.0.0.0</code></pre>
 <p>Но я не знаю что она делает...</p>
 
-<details><summary>....</summary>
+<details markdown="1"><summary>....</summary>
+
 только не пытайся автоматизировать <a style="color: black; text-decoration: underline;" href="https://github.com/AleksandrovskyV/svg_viewer">это</a><br>
-используя упомянутый выше модуль "http.server"<br> 
-ведь есть flask\fastapi, с приятными вызовами <br> 
+используя упомянутый выше модуль `http.server`<br> 
+ведь есть `flask` \ `fastapi`, с приятными вызовами <br> 
 и кучей бонусов в придачу<br> 
 
-
 </details>
+
 </details>
 
 </details>
