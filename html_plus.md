@@ -8,7 +8,7 @@
 <br>
 
 ## w sublime...
-Text!
+...text!
 <details markdown="1"><summary>shortcuts</summary>
 
 например \[ CTRL + SHIFT + P \],<br>
@@ -19,23 +19,20 @@ Text!
 
 ## минификации...
 
-<details markdown="1"><summary><strong> \[ шрифта \]</strong></summary>
+- ### \[ шрифта \]
 
-из ttf > woff2 > и на выходе сразу байткод для css <br>
-<https://transfonter.org/>
-
-</details>
-
+    из ttf > woff2 > и на выходе сразу байткод для css  
+    <https://transfonter.org/>
 
 
 - ### \[ .html \]
 
-    117  кб     > 67кб<br>
+    117  кб     > 67кб  
     3531 строка > 669 строк
 
-    upd.. может сломать верстку<br>
-    up2.. не поддерживает CSS Nesting - не знаю что это...<br>
-    up3.. просто убрал группировку одним селектором и вроде хорошо<br>
+    upd.. может сломать верстку  
+    up2.. не поддерживает CSS Nesting - не знаю что это...  
+    up3.. просто убрал группировку одним селектором и вроде хорошо  
     <https://www.toptal.com/developers/html-minifier>
 
 
