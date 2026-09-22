@@ -19,6 +19,8 @@
 
 ## минификации...
 
+<details markdown="1"><summary><strong> EXPAND </strong></summary>
+
 - ### \[ шрифта \]
 
     из ttf > woff2 > и на выходе сразу байткод для css  
@@ -49,6 +51,8 @@
     чтобы сразу вставить в `обои.css`<br>
     <https://base64.guru/converter/encode/image/png>
 
+
+</details>
 
 ### ЦСС
 css cелектор для элемента c тегом "class" будучи внутри div элемента с наличием id.. <br>
