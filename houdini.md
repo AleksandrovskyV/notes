@@ -1,3 +1,17 @@
+
+<br><br>
+
+_c базы_
+
+_Paste in HScript Textport from .hiplc project:_  
+_opscript -G -r / > $TEMP/temp.cmd_  
+
+_Paste in HScript Textport from .you project:_
+_cmdread $TEMP/temp.cmd_
+
+
+
+
 ## Wrangles
 
 Весь код написанный внутри этих ребят "выше" и "вроде" обёрнут в функцию  
