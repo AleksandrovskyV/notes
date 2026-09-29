@@ -95,3 +95,7 @@ if (@ptnum >= len(abc)) return;
 
 
 <br><br><br>
+
+---
+
+[ex](https://www.dropbox.com/scl/fi/2s18iw15khdj9aua8ao3r/HDNI_MY.paper?rlkey=5ddchk9uzpekovretsmr4cliv&dl=0)
