@@ -7,6 +7,8 @@
 
 \* хотя разницу от простыней нод, ещё придётся познать...
 
+
+
 ### Rand Color based on Attr Class
 Ведь нода "color" требует float fit0-1 в параметре "Ramp from Attribute",  
 а так можно по int пустить (like "@class" from connectivity)
@@ -20,6 +22,7 @@ float grayscale = fit01(rand_val, min_bright, max_bright);
 
 @Cd = set(grayscale, grayscale, grayscale);
 ```
+
 
 
 ### UV Transfer
@@ -65,8 +68,12 @@ for(int i = 0; i < max_pts; i++) {
 ```
 
 
+
 ### Skip current code
 Экстренная остановка...
 ```c
 if (@ptnum >= len(abc)) return;
 ```
+
+
+<br><br><br>
