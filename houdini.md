@@ -70,7 +70,7 @@ for(int i = 0; i < max_pts; i++) {
 
 
 ### Skip current code
-Экстренная остановка...
+Если нужно прервать...
 ```c
 if (@ptnum >= len(abc)) return;
 ```
