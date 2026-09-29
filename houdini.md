@@ -36,12 +36,13 @@ v@P = target_pos;
 
 
 
-### Set String attr over pts
+### Add text attr on pts 
+- run over: detail
 Запишет в первые две точки строки (длина списка abc)  
-\- и сразу прервёт операцию "return", не трогая остальные
+Остальные точки не тронет... 
 
 ```c
-string abc[] = {
+string abc_en[] = {
 "my",
 "new",
 };
@@ -52,9 +53,20 @@ string abc_ru[] = {
 "работа",
 };
 
-
-if (@ptnum >= len(abc)) return;
-s@name_en = abc[@ptnum];
-s@name_ru = abc_ru[@ptnum];
+int max_pts = max(len(abc_en), len(abc_ru));
+for(int i = 0; i < max_pts; i++) {
+    if(i < len(abc_en)) {
+        setpointattrib(0, "name_en", i, abc_en[i], "set");
+    }
+    if(i < len(abc_ru)) {
+        setpointattrib(0, "name_ru", i, abc_ru[i], "set");
+    }
+}
 ```
 
+
+### Skip current code
+Экстренная остановка...
+```c
+if (@ptnum >= len(abc)) return;
+```
