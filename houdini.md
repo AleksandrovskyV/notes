@@ -40,7 +40,7 @@ v@P = target_pos;
 
 
 ### Add text attr on pts 
-- run over: detail
+- run over: detail  
 Запишет в первые три точки строки,  
 не тронув остальные...  
 
