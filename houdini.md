@@ -1,5 +1,4 @@
-
-<br><br>
+<br>
 
 _и начать предстоит c базы..._
 
@@ -9,8 +8,7 @@ _opscript -G -r / > $TEMP/temp.cmd_
 Paste in HScript Textport from <strong>.hip</strong> project:  
 _cmdread $TEMP/temp.cmd_  
 
-
-
+<br><br>
 
 ## Wrangles
 
@@ -24,6 +22,8 @@ _cmdread $TEMP/temp.cmd_
 
 
 ### Rand Color based on Attr Class
+- run over: point\prims\edge?
+
 Ведь нода "color" требует float fit0-1 в параметре "Ramp from Attribute",  
 а так можно по int пустить (like "@class" from connectivity)
 
@@ -40,6 +40,8 @@ float grayscale = fit01(rand_val, min_bright, max_bright);
 
 
 ### UV Transfer
+- run over: point
+
 В первый вход геометрия с X и Y между 0 до 1  
 Во второй - то, на что планируешь натягивать
 
@@ -55,6 +57,7 @@ v@P = target_pos;
 
 ### Add text attr on pts 
 - run over: detail  
+
 Запишет в первые три точки строки,  
 не тронув остальные...  
 
