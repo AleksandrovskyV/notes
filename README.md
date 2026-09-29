@@ -7,6 +7,7 @@ _&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;зде�
 ### 🔹 00. [INIT](https://aleksandrovskyv.github.io/notes/init)<br>
 ### 🔹 01. [C4Docs](https://aleksandrovskyv.github.io/notes/c4docs)<br>
 ### 🔹 02. [C4D > Houdini](https://aleksandrovskyv.github.io/notes/houdini_c4d_ru)<br>
+### 🔹 07. [Houdini](https://aleksandrovskyv.github.io/notes/houdini)<br>
 ### 🔹 03. [HTML+](https://aleksandrovskyv.github.io/notes/html_plus)<br>
 ### 🔹 04. [Сёрфер в хроме](https://aleksandrovskyv.github.io/notes/chrome_surfer)<br>
 ### 🔹 05. [Gitpub](https://aleksandrovskyv.github.io/notes/gitpub)<br>
