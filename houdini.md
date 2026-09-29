@@ -69,8 +69,8 @@ for(int i = 0; i < max_pts; i++) {
 
 
 
-### Skip current code
-Если нужно прервать...
+### Stop, Next...
+Если нужно прервать текущий шаг итерации, шагнув дальше
 ```c
 if (@ptnum >= len(abc)) return;
 ```
