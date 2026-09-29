@@ -1,13 +1,13 @@
 
 <br><br>
 
-_c базы_
+_и начать стоит c базы..._
 
-_Paste in HScript Textport from .hiplc project:_  
+Paste in HScript Textport from .hiplc project:  
 _opscript -G -r / > $TEMP/temp.cmd_  
 
-_Paste in HScript Textport from .you project:_
-_cmdread $TEMP/temp.cmd_
+Paste in HScript Textport from .you project:  
+_cmdread $TEMP/temp.cmd_  
 
 
 
